@@ -1,0 +1,16 @@
+﻿<Window x:Class="WpfSliderKleur.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfSliderKleur"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="329.837" Width="800">
+    <Grid>
+        <Slider x:Name="sldr1" IsSnapToTickEnabled="True" HorizontalAlignment="Left" Margin="73,62,0,0" VerticalAlignment="Top" Width="637" RenderTransformOrigin="0,0" Height="25" ValueChanged="Slider_ValueChanged" Maximum="100" SmallChange="1" TickPlacement="BottomRight" LargeChange="0"/>
+        <Label x:Name="LblWaarde" Content="Geselecteerde waarde" HorizontalAlignment="Left" Margin="73,221,0,0" VerticalAlignment="Top" Width="238" FontSize="18"/>
+        <Label Content="Label" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <Label x:Name="LblCijfer" Content="" HorizontalAlignment="Left" Margin="592,164,0,0" VerticalAlignment="Top" Height="104" Width="118" FontSize="32" FontWeight="Bold" Background="White" Foreground="#FFFFB5B5"   />
+
+    </Grid>
+</Window>

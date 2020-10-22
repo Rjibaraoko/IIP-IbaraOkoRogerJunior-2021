@@ -1,7 +1,0 @@
-F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
-F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
-F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
-F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csprojResolveAssemblyReference.cache
-F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
-F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
-F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

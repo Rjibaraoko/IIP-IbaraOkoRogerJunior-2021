@@ -1,0 +1,19 @@
+﻿<Window x:Class="WpfAppTtest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppTtest"
+        mc:Ignorable="d"
+        Title="Hallo World App" Height="484.858" Width="800">
+    <Grid Background="#FFFF6C6C">
+        <Label x:Name="lblTekst" Content="Hallo,Hoe is je naam ?" HorizontalAlignment="Left" Margin="100,110,0,0" VerticalAlignment="Top" RenderTransformOrigin="-11.783,-3.938" Width="237" Height="33" FontSize="16"/>
+        <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtName" HorizontalAlignment="Left" Height="44" Margin="100,148,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="237" FontSize="16" Text="" TextChanged="txtName_TextChanged" />
+        <Button Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="BtnOK" Content="OK" HorizontalAlignment="Left" Margin="342,147,0,0" VerticalAlignment="Top" Width="75" Height="44" Click="BtnOK_Click"/>
+        <Button x:Name="Btn_Reset" Content="RESET" HorizontalAlignment="Left" VerticalAlignment="Top" Width="98" Margin="431,146,0,0" Height="43" Click="Btn_Reset_Click"/>
+
+
+    </Grid>
+</Window>

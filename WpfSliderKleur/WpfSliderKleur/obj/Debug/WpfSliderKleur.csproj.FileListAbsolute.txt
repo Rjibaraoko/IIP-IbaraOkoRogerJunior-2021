@@ -1,0 +1,14 @@
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\WpfSliderKleur\WpfSliderKleur\bin\Debug\WpfSliderKleur.exe.config
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\WpfSliderKleur\WpfSliderKleur\bin\Debug\WpfSliderKleur.exe
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\WpfSliderKleur\WpfSliderKleur\bin\Debug\WpfSliderKleur.pdb
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\WpfSliderKleur\WpfSliderKleur\obj\Debug\WpfSliderKleur.csprojAssemblyReference.cache
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\WpfSliderKleur\WpfSliderKleur\obj\Debug\MainWindow.g.cs
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\WpfSliderKleur\WpfSliderKleur\obj\Debug\App.g.cs
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\WpfSliderKleur\WpfSliderKleur\obj\Debug\WpfSliderKleur_MarkupCompile.cache
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\WpfSliderKleur\WpfSliderKleur\obj\Debug\WpfSliderKleur_MarkupCompile.lref
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\WpfSliderKleur\WpfSliderKleur\obj\Debug\MainWindow.baml
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\WpfSliderKleur\WpfSliderKleur\obj\Debug\WpfSliderKleur.g.resources
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\WpfSliderKleur\WpfSliderKleur\obj\Debug\WpfSliderKleur.Properties.Resources.resources
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\WpfSliderKleur\WpfSliderKleur\obj\Debug\WpfSliderKleur.csproj.GenerateResource.cache
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\WpfSliderKleur\WpfSliderKleur\obj\Debug\WpfSliderKleur.exe
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\WpfSliderKleur\WpfSliderKleur\obj\Debug\WpfSliderKleur.pdb
