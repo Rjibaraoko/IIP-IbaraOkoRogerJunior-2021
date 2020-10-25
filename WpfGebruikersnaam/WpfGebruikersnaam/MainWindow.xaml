@@ -1,0 +1,15 @@
+﻿<Window x:Class="WpfGebruikersnaam.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfGebruikersnaam"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="295.504" Width="825.749">
+    <Grid>
+        <Label x:Name="Lbl1" Content="Kies een gebruikernaam ;" HorizontalAlignment="Left" Margin="17,65,0,0" VerticalAlignment="Top" Width="243"/>
+        <TextBox x:Name="TxtBox1" HorizontalAlignment="Left" Height="29" Margin="281,66,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="379" TextChanged="TextBox_TextChanged"/>
+        <Label x:Name="Lblfout" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="282,102,0,0" Width="222"/>
+
+    </Grid>
+</Window>
