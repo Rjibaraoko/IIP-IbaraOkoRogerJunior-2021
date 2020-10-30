@@ -22,6 +22,7 @@ namespace ConsoleGreenHouse
             string soort = Console.ReadLine();
             
             Console.WriteLine("\nJe besteling: "+" een " + grootte + " " + basis + " met " + soort);
-            Console.Read();        }
+            Console.Read();        
+        }
     }
 }
