@@ -1,0 +1,15 @@
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 1\WpfChat\obj\Debug\WpfChat.csprojAssemblyReference.cache
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 1\WpfChat\obj\Debug\MainWindow.g.cs
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 1\WpfChat\obj\Debug\App.g.cs
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 1\WpfChat\obj\Debug\WpfChat_MarkupCompile.cache
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 1\WpfChat\obj\Debug\WpfChat_MarkupCompile.lref
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 1\WpfChat\bin\Debug\WpfChat.exe.config
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 1\WpfChat\bin\Debug\WpfChat.exe
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 1\WpfChat\bin\Debug\WpfChat.pdb
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 1\WpfChat\obj\Debug\MainWindow.baml
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 1\WpfChat\obj\Debug\WpfChat.g.resources
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 1\WpfChat\obj\Debug\WpfChat.Properties.Resources.resources
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 1\WpfChat\obj\Debug\WpfChat.csproj.GenerateResource.cache
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 1\WpfChat\obj\Debug\WpfChat.csproj.CoreCompileInputs.cache
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 1\WpfChat\obj\Debug\WpfChat.exe
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 1\WpfChat\obj\Debug\WpfChat.pdb
