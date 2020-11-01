@@ -11,14 +11,30 @@ namespace ConsoleMusicPlayer
     {
         static void Main(string[] args)
         {
+            //de tekst dat zal opkomen bij het starten van het programma
+            Console.WriteLine("MEDIAPLAYER");
+            Console.WriteLine("===========");
+            Console.WriteLine("Bestand afspelen:");
+            //Wat de user zal inzetten als shortcut
+            var input = Console.ReadLine();
+            
+
             //Het make gebruiken van de music player
             WindowsMediaPlayer player = new WindowsMediaPlayer();
 
             //De path naar de folder van de muzieken
             string musicFolder = Environment.GetFolderPath(Environment.SpecialFolder.MyMusic);
 
-            //De exacte path naar het liedje met de naam                                
-            player.URL = System.IO.Path.Combine(musicFolder, "the-final-coundown.mp3");
+            //De exacte path naar het liedje met de naam                         
+            
+            player.URL = System.IO.Path.Combine(musicFolder, input);
+
+            player.controls.pause();
+            player.controls.play();
+            player.controls.stop();
+            Console.Read();
+
+
 
             //Overwrite the song als je skipt
             /*                                                                    
