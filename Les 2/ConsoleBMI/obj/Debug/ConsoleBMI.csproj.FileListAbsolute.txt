@@ -1,0 +1,7 @@
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 2\ConsoleBMI\bin\Debug\ConsoleBMI.exe.config
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 2\ConsoleBMI\bin\Debug\ConsoleBMI.exe
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 2\ConsoleBMI\bin\Debug\ConsoleBMI.pdb
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 2\ConsoleBMI\obj\Debug\ConsoleBMI.csprojAssemblyReference.cache
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 2\ConsoleBMI\obj\Debug\ConsoleBMI.csproj.CoreCompileInputs.cache
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 2\ConsoleBMI\obj\Debug\ConsoleBMI.exe
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 2\ConsoleBMI\obj\Debug\ConsoleBMI.pdb
