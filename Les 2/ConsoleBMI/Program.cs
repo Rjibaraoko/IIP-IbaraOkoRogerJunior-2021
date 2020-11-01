@@ -20,7 +20,7 @@ namespace ConsoleBMI
             var Gewicht = Convert.ToDouble(Console.ReadLine());
             //formule voor het maken van de berekening van de BMI
             var BMI = Gewicht / (Lengte * Lengte);
-            //het resultaat 
+            //het resultaat afgerond
             Console.WriteLine("Je BMI bedraagt:" + Math.Ceiling(BMI));
 
             Console.ReadKey();
