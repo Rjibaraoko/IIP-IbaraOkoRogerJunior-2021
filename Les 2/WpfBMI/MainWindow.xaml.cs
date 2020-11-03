@@ -23,6 +23,22 @@ namespace WpfBMI
         public MainWindow()
         {
             InitializeComponent();
+            
+        }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            //De input van de user onthouden
+            var Lengte = Convert.ToDouble(Lengtetxt.Text) / 100;
+            var Gewicht = Convert.ToDouble(Gewichttxt.Text);
+
+            //formule voor het maken van de berekening van de BMI
+            var BMI = Gewicht / (Lengte * Lengte);
+
+            //het resultaat afgerond
+            LblBmi.Content = "BMI: " + Math.Ceiling(BMI);
+            
+            //Math.Ceiling(BMI));
         }
     }
 }

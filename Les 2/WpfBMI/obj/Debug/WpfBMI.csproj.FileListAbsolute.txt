@@ -1,0 +1,15 @@
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 2\WpfBMI\bin\Debug\WpfBMI.exe.config
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 2\WpfBMI\bin\Debug\WpfBMI.exe
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 2\WpfBMI\bin\Debug\WpfBMI.pdb
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 2\WpfBMI\obj\Debug\WpfBMI.csprojAssemblyReference.cache
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 2\WpfBMI\obj\Debug\MainWindow.g.cs
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 2\WpfBMI\obj\Debug\App.g.cs
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 2\WpfBMI\obj\Debug\WpfBMI_MarkupCompile.cache
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 2\WpfBMI\obj\Debug\WpfBMI_MarkupCompile.lref
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 2\WpfBMI\obj\Debug\MainWindow.baml
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 2\WpfBMI\obj\Debug\WpfBMI.g.resources
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 2\WpfBMI\obj\Debug\WpfBMI.Properties.Resources.resources
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 2\WpfBMI\obj\Debug\WpfBMI.csproj.GenerateResource.cache
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 2\WpfBMI\obj\Debug\WpfBMI.csproj.CoreCompileInputs.cache
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 2\WpfBMI\obj\Debug\WpfBMI.exe
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 2\WpfBMI\obj\Debug\WpfBMI.pdb

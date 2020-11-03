@@ -7,15 +7,16 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Grid Background="AliceBlue"></Grid>
-        <TextBlock x:Name="Lengtetxt" HorizontalAlignment="Left" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Margin="177,92,0,0" Height="21" Width="165" Background="White"/>
-        <TextBlock x:Name="Gewichttxt" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="177,139,0,0" Height="21" Width="165" Background="White" ><Run Text="TextBlock" /></TextBlock>
+        <Grid Background="AliceBlue">
+            <TextBox x:Name="Gewichttxt" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="198,138,0,0"/>
+            <TextBox x:Name="Lengtetxt" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="198,95,0,0"/>
+        </Grid>
         <Label Content="Lengte:" Margin="87,91,620,291"/>
-        <Label Content="Gewicht:" Margin="87,133,635,259"/>
-        <Label Content="cm" Margin="368,87,362,306"/>
-        <Label Content="kg" Margin="368,134,352,259"/>
-        <Button x:Name="button" Content="BEREKENEN" HorizontalAlignment="Left" VerticalAlignment="Top" Width="165" Margin="177,197,0,0" Height="64"/>
-        <Label Content="BMI: " Margin="177,299,450,88"/>
+        <Label Content="Gewicht:" Margin="87,133,620,247"/>
+        <Label Content="cm" Margin="368,87,362,291"/>
+        <Label Content="kg" Margin="368,134,352,247"/>
+        <Button x:Name="button" Content="BEREKENEN" HorizontalAlignment="Left" VerticalAlignment="Top" Width="165" Margin="177,197,0,0" Height="64" Click="button_Click"/>
+        <Label x:Name="LblBmi" Content="BMI: " Margin="177,299,450,88"/>
 
     </Grid>
 </Window>
