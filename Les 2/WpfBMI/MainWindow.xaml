@@ -8,10 +8,10 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Grid Background="AliceBlue"></Grid>
-        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Margin="177,92,0,0" Height="21" Width="165" Background="White"/>
-        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="177,139,0,0" Height="21" Width="165" Background="White" ><Run Text="TextBlock" /></TextBlock>
+        <TextBlock x:Name="Lengtetxt" HorizontalAlignment="Left" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Margin="177,92,0,0" Height="21" Width="165" Background="White"/>
+        <TextBlock x:Name="Gewichttxt" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="177,139,0,0" Height="21" Width="165" Background="White" ><Run Text="TextBlock" /></TextBlock>
         <Label Content="Lengte:" Margin="87,91,620,291"/>
-        <Label Content="Gewicht;" Margin="87,133,635,259"/>
+        <Label Content="Gewicht:" Margin="87,133,635,259"/>
         <Label Content="cm" Margin="368,87,362,306"/>
         <Label Content="kg" Margin="368,134,352,259"/>
         <Button x:Name="button" Content="BEREKENEN" HorizontalAlignment="Left" VerticalAlignment="Top" Width="165" Margin="177,197,0,0" Height="64"/>
