@@ -1,0 +1,7 @@
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 2\ConsoleKarakter\bin\Debug\ConsoleKarakter.exe.config
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 2\ConsoleKarakter\bin\Debug\ConsoleKarakter.exe
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 2\ConsoleKarakter\bin\Debug\ConsoleKarakter.pdb
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 2\ConsoleKarakter\obj\Debug\ConsoleKarakter.csprojAssemblyReference.cache
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 2\ConsoleKarakter\obj\Debug\ConsoleKarakter.csproj.CoreCompileInputs.cache
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 2\ConsoleKarakter\obj\Debug\ConsoleKarakter.exe
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 2\ConsoleKarakter\obj\Debug\ConsoleKarakter.pdb

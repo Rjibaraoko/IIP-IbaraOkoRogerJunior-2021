@@ -1,0 +1,7 @@
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 2\ConsoleHms\bin\Debug\ConsoleHms.exe.config
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 2\ConsoleHms\bin\Debug\ConsoleHms.exe
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 2\ConsoleHms\bin\Debug\ConsoleHms.pdb
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 2\ConsoleHms\obj\Debug\ConsoleHms.csproj.CoreCompileInputs.cache
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 2\ConsoleHms\obj\Debug\ConsoleHms.exe
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 2\ConsoleHms\obj\Debug\ConsoleHms.pdb
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 2\ConsoleHms\obj\Debug\ConsoleHms.csprojAssemblyReference.cache
