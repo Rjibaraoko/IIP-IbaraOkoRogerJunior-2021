@@ -15,9 +15,11 @@ namespace ConsoleMusicPlayer
             Console.WriteLine("MEDIAPLAYER");
             Console.WriteLine("===========");
             Console.WriteLine("Bestand afspelen:");
-            //Wat de user zal inzetten als shortcut
+            //Wat de user zal inzetten als path
             var input = Console.ReadLine();
-            
+
+            //What zal het zoeken van de file in het systeem zorgen
+            System.Diagnostics.Process.Start(input);
 
             //Het make gebruiken van de music player
             WindowsMediaPlayer player = new WindowsMediaPlayer();
@@ -25,14 +27,16 @@ namespace ConsoleMusicPlayer
             //De path naar de folder van de muzieken
             string musicFolder = Environment.GetFolderPath(Environment.SpecialFolder.MyMusic);
 
+            Console.Read();
+
             //De exacte path naar het liedje met de naam                         
             
-            player.URL = System.IO.Path.Combine(musicFolder, input);
+            //player.URL = System.IO.Path.Combine(musicFolder, input);
 
-            player.controls.pause();
+           /* player.controls.pause();
             player.controls.play();
             player.controls.stop();
-            Console.Read();
+            Console.Read();*/
 
 
 
