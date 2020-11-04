@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -19,7 +20,7 @@ namespace ConsoleMusicPlayer
             var input = Console.ReadLine();
 
             //What zal het zoeken van de file in het systeem zorgen
-            System.Diagnostics.Process.Start(input);
+            //System.Diagnostics.Process.Start(input);
 
             //Het make gebruiken van de music player
             WindowsMediaPlayer player = new WindowsMediaPlayer();
@@ -27,16 +28,57 @@ namespace ConsoleMusicPlayer
             //De path naar de folder van de muzieken
             string musicFolder = Environment.GetFolderPath(Environment.SpecialFolder.MyMusic);
 
-            Console.Read();
+
 
             //De exacte path naar het liedje met de naam                         
-            
-            //player.URL = System.IO.Path.Combine(musicFolder, input);
 
-           /* player.controls.pause();
-            player.controls.play();
-            player.controls.stop();
-            Console.Read();*/
+            player.URL = System.IO.Path.Combine(musicFolder, input);
+
+            ConsoleKeyInfo keypress;
+            keypress = Console.ReadKey();
+
+            while (File.Exists(input))
+            {
+                if (keypress.Key == ConsoleKey.Spacebar)
+                {
+                    player.controls.pause();
+
+                    if (keypress.Key == ConsoleKey.Escape)
+                    {
+
+                    }
+                }
+            }
+
+                
+                player.controls.pause();
+                player.controls.play();
+                player.controls.stop();
+
+            /*else if (keypress.Key == ConsoleKey.Spacebar)
+            {
+                player.controls.play();
+            }*/
+            /*else if (keypress.Key == ConsoleKey.Escape)
+            {
+                player.controls.stop();
+            }*/
+            /*else
+            {
+                player.controls.play();
+            }*/
+
+
+
+
+
+            //player.settings.volume = 50;
+
+            //player.settings.mute = true;
+
+            //player.settings.mute = false;
+
+            Console.Read();
 
 
 
@@ -54,11 +96,7 @@ namespace ConsoleMusicPlayer
             int huidigVolume = player.settings.volume;
             Console.WriteLine($"Huidig volume: {huidigVolume}");
 
-            player.settings.volume = 50;
-
-            player.settings.mute = true;
-
-            player.settings.mute = false;
+           
 
 
             Console.Read();*/
