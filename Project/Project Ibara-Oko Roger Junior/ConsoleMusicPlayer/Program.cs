@@ -37,40 +37,28 @@ namespace ConsoleMusicPlayer
             ConsoleKeyInfo keypress;
             keypress = Console.ReadKey();
 
-            while (File.Exists(input))
+            if (File.Exists(input))
             {
-                if (keypress.Key == ConsoleKey.Spacebar)
+                if (keypress.Key == ConsoleKey.Escape)
                 {
                     player.controls.pause();
-
-                    if (keypress.Key == ConsoleKey.Escape)
-                    {
-
-                    }
                 }
+                else if (keypress.Key == ConsoleKey.Enter)
+                {
+                    player.controls.play();
+                }
+                else if (keypress.Key == ConsoleKey.Enter)
+                {
+                    player.controls.stop();
+                }
+                else
+                {
+                    player.controls.play();
+                }
+
             }
 
-                
-                player.controls.pause();
-                player.controls.play();
-                player.controls.stop();
-
-            /*else if (keypress.Key == ConsoleKey.Spacebar)
-            {
-                player.controls.play();
-            }*/
-            /*else if (keypress.Key == ConsoleKey.Escape)
-            {
-                player.controls.stop();
-            }*/
-            /*else
-            {
-                player.controls.play();
-            }*/
-
-
-
-
+            
 
             //player.settings.volume = 50;
 
