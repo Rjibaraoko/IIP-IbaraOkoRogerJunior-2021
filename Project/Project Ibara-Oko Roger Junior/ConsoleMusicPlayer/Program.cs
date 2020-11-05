@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 using WMPLib;
@@ -37,57 +38,51 @@ namespace ConsoleMusicPlayer
             ConsoleKeyInfo keypress;
             keypress = Console.ReadKey();
 
-            if (File.Exists(input))
+            string path = input;
+            FileInfo filepath = new FileInfo(path);
+
+
+            /*while (File.Exists(input))
             {
-                if (keypress.Key == ConsoleKey.Escape)
+                if (keypress.Key == ConsoleKey.UpArrow)
                 {
                     player.controls.pause();
                 }
-                else if (keypress.Key == ConsoleKey.Enter)
+                else if (keypress.Key == ConsoleKey.Spacebar)
                 {
                     player.controls.play();
                 }
-                else if (keypress.Key == ConsoleKey.Enter)
-                {
-                    player.controls.stop();
-                }
-                else
-                {
-                    player.controls.play();
-                }
+            }*/
 
+            bool rap = Convert.ToBoolean(keypress.Key);
+
+            while (rap)
+            {
+                switch (keypress.Key)
+                {
+                    case ConsoleKey.Spacebar:
+                        {
+                            player.controls.pause();
+                            break;
+                        }
+                    case ConsoleKey.Escape:
+                        {
+                            player.controls.play();
+                            break;
+                        }
+                    case ConsoleKey.Enter:
+                        {
+                            player.controls.stop();
+                            break;
+                        }
+                    default: break;
+                }
             }
 
             
 
-            //player.settings.volume = 50;
-
-            //player.settings.mute = true;
-
-            //player.settings.mute = false;
-
-            Console.Read();
-
-
-
-            //Overwrite the song als je skipt
-            /*                                                                    
-            player.URL = System.IO.Path.Combine(musicFolder, "god-is-a-dj.mp3");
-
-            //Controls
-
+            Console.ReadKey();
             
-            player.controls.pause();
-            player.controls.play();
-            player.controls.stop();
-
-            int huidigVolume = player.settings.volume;
-            Console.WriteLine($"Huidig volume: {huidigVolume}");
-
-           
-
-
-            Console.Read();*/
         }
     }
 }
