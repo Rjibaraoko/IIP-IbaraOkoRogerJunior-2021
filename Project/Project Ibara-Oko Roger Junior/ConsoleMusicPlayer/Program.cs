@@ -51,7 +51,7 @@ namespace ConsoleMusicPlayer
             int druk = Convert.ToInt32(keypress.Key);
             druk = 0;
 
-            
+            //een loop zodat als je op spacebar drukt hij niet onmiddelijk de rest van de functionaliteiten dropt
             while (keypress.Key == ConsoleKey.Spacebar)
             {
                 
@@ -68,12 +68,15 @@ namespace ConsoleMusicPlayer
 
             }
 
+            //Hetzelfde als voor de spacebar
             while (keypress.Key == ConsoleKey.Enter)
             {
                 player.controls.stop();
                 break;
             }
 
+            //Hier is er normaal gezien een loop voor nodig maar aangezien het mij niet lukt om dit te 
+            //loopen heb ik besloten voor nu een if statement te gebruiken
             if (keypress.Key == ConsoleKey.Backspace)
             {
                 int huidigVolume = player.settings.volume;
