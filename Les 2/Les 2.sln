@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfIngredienten", "WpfIngre
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfWpfIngredienten (vervolg)", "WpfWpfIngredienten (vervolg)\WpfWpfIngredienten (vervolg).csproj", "{B1F68BCE-13F2-451C-8876-CE9C65399AD0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfDatumKiezer", "C:\Users\Rj\Downloads\csharp\WpfDatumKiezer\WpfDatumKiezer\WpfDatumKiezer.csproj", "{FE9EC1DF-5F96-4D14-9F1C-17FD419F58B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfGebruikersnaam", "C:\Users\Rj\Downloads\csharp\WpfGebruikersnaam\WpfGebruikersnaam\WpfGebruikersnaam.csproj", "{301F34AA-CDA3-4667-A599-7B49994805E1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{B1F68BCE-13F2-451C-8876-CE9C65399AD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1F68BCE-13F2-451C-8876-CE9C65399AD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1F68BCE-13F2-451C-8876-CE9C65399AD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE9EC1DF-5F96-4D14-9F1C-17FD419F58B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE9EC1DF-5F96-4D14-9F1C-17FD419F58B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE9EC1DF-5F96-4D14-9F1C-17FD419F58B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE9EC1DF-5F96-4D14-9F1C-17FD419F58B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{301F34AA-CDA3-4667-A599-7B49994805E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{301F34AA-CDA3-4667-A599-7B49994805E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{301F34AA-CDA3-4667-A599-7B49994805E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{301F34AA-CDA3-4667-A599-7B49994805E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
