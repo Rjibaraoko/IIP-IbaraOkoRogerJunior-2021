@@ -1,0 +1,15 @@
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 2\WpfWpfIngredienten (vervolg)\bin\Debug\WpfWpfIngredienten (vervolg).exe.config
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 2\WpfWpfIngredienten (vervolg)\bin\Debug\WpfWpfIngredienten (vervolg).exe
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 2\WpfWpfIngredienten (vervolg)\bin\Debug\WpfWpfIngredienten (vervolg).pdb
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 2\WpfWpfIngredienten (vervolg)\obj\Debug\MainWindow.g.cs
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 2\WpfWpfIngredienten (vervolg)\obj\Debug\App.g.cs
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 2\WpfWpfIngredienten (vervolg)\obj\Debug\WpfWpfIngredienten (vervolg)_MarkupCompile.cache
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 2\WpfWpfIngredienten (vervolg)\obj\Debug\WpfWpfIngredienten (vervolg)_MarkupCompile.lref
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 2\WpfWpfIngredienten (vervolg)\obj\Debug\MainWindow.baml
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 2\WpfWpfIngredienten (vervolg)\obj\Debug\WpfWpfIngredienten (vervolg).g.resources
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 2\WpfWpfIngredienten (vervolg)\obj\Debug\WpfWpfIngredienten__vervolg_.Properties.Resources.resources
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 2\WpfWpfIngredienten (vervolg)\obj\Debug\WpfWpfIngredienten (vervolg).csproj.GenerateResource.cache
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 2\WpfWpfIngredienten (vervolg)\obj\Debug\WpfWpfIngredienten (vervolg).csproj.CoreCompileInputs.cache
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 2\WpfWpfIngredienten (vervolg)\obj\Debug\WpfWpfIngredienten (vervolg).exe
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 2\WpfWpfIngredienten (vervolg)\obj\Debug\WpfWpfIngredienten (vervolg).pdb
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 2\WpfWpfIngredienten (vervolg)\obj\Debug\WpfWpfIngredienten (vervolg).csprojAssemblyReference.cache
