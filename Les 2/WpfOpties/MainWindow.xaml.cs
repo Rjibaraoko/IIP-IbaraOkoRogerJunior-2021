@@ -13,35 +13,34 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace WpfOxo
+namespace WpfOpties
 {
     /// <summary>
     /// Logique d'interaction pour MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
     {
-        bool turn = true;
-        
         public MainWindow()
         {
             InitializeComponent();
         }
 
-        private void btn_Click(object sender, RoutedEventArgs e)
+        private void chkbox_Checked(object sender, RoutedEventArgs e)
         {
+            CheckBox checkBox = (CheckBox)sender;
             
-            Button clickButton = (Button)sender;
+            bool checking = Convert.ToBoolean(checkBox.IsChecked);
+            int checking3 = Convert.ToInt32(checkBox.Tag);
 
-            
-                if (turn)
-                {
-                    clickButton.Content = "X";
-                }
-                else
-                {
-                    clickButton.Content = "O";
-                }
-            turn = !turn;
+            if (checking)
+            {
+                imgV.Visibility = Visibility.Visible;
+            }
+            else
+            {
+                imgV.Visibility = Visibility.Hidden;
+            }
+
 
         }
     }
