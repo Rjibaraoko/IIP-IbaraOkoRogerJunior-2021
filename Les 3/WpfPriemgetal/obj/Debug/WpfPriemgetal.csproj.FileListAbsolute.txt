@@ -1,0 +1,15 @@
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 3\WpfPriemgetal\bin\Debug\WpfPriemgetal.exe.config
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 3\WpfPriemgetal\bin\Debug\WpfPriemgetal.exe
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 3\WpfPriemgetal\bin\Debug\WpfPriemgetal.pdb
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 3\WpfPriemgetal\obj\Debug\WpfPriemgetal.csprojAssemblyReference.cache
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 3\WpfPriemgetal\obj\Debug\MainWindow.g.cs
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 3\WpfPriemgetal\obj\Debug\App.g.cs
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 3\WpfPriemgetal\obj\Debug\WpfPriemgetal_MarkupCompile.cache
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 3\WpfPriemgetal\obj\Debug\WpfPriemgetal_MarkupCompile.lref
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 3\WpfPriemgetal\obj\Debug\MainWindow.baml
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 3\WpfPriemgetal\obj\Debug\WpfPriemgetal.g.resources
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 3\WpfPriemgetal\obj\Debug\WpfPriemgetal.Properties.Resources.resources
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 3\WpfPriemgetal\obj\Debug\WpfPriemgetal.csproj.GenerateResource.cache
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 3\WpfPriemgetal\obj\Debug\WpfPriemgetal.csproj.CoreCompileInputs.cache
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 3\WpfPriemgetal\obj\Debug\WpfPriemgetal.exe
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 3\WpfPriemgetal\obj\Debug\WpfPriemgetal.pdb

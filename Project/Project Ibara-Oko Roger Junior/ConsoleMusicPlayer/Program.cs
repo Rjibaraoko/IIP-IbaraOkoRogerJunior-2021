@@ -13,11 +13,13 @@ namespace ConsoleMusicPlayer
     {
         static void Main(string[] args)
         {
-
+            bool Cycle = true;
+            
             //de tekst dat zal opkomen bij het starten van het programma
             Console.WriteLine("MEDIAPLAYER");
             Console.WriteLine("===========");
             Console.WriteLine("Bestand afspelen:");
+            Console.WriteLine("/n");
             //Wat de user zal inzetten als path
             var input = Console.ReadLine();
             Console.ReadKey();
@@ -26,6 +28,8 @@ namespace ConsoleMusicPlayer
             Console.WriteLine("Downarrow om te ontmuten");
             Console.WriteLine("Enter om liedje te stoppen");
             Console.WriteLine("Backspace om geluid te veranderen");
+
+            
             
             //What zal het zoeken van de file in het systeem zorgen
             //System.Diagnostics.Process.Start(input);
@@ -48,11 +52,13 @@ namespace ConsoleMusicPlayer
             string path = input;
             FileInfo filepath = new FileInfo(path);
 
+            //
+
             int druk = Convert.ToInt32(keypress.Key);
             druk = 0;
 
             //een loop zodat als je op spacebar drukt hij niet onmiddelijk de rest van de functionaliteiten dropt
-            while (keypress.Key == ConsoleKey.Spacebar)
+            while (keypress.Key == ConsoleKey.Spacebar && Cycle)
             {
                 
                 player.controls.pause();
@@ -67,17 +73,18 @@ namespace ConsoleMusicPlayer
                 }
 
             }
+            Cycle = !Cycle;
 
             //Hetzelfde als voor de spacebar
-            while (keypress.Key == ConsoleKey.Enter)
+            if (keypress.Key == ConsoleKey.Enter && Cycle)
             {
                 player.controls.stop();
-                break;
+                
             }
 
             //Hier is er normaal gezien een loop voor nodig maar aangezien het mij niet lukt om dit te 
             //loopen heb ik besloten voor nu een if statement te gebruiken
-            if (keypress.Key == ConsoleKey.Backspace)
+            if (keypress.Key == ConsoleKey.Backspace && Cycle)
             {
                 int huidigVolume = player.settings.volume;
                 Console.WriteLine($"Huidig volume: {huidigVolume}");
@@ -97,21 +104,33 @@ namespace ConsoleMusicPlayer
                 }*/
 
 
-                  }
+            }
 
             //als je op de up arrow drkt zal de app de volume helemaal muten
-            if (keypress.Key == ConsoleKey.UpArrow)
+            if (keypress.Key == ConsoleKey.UpArrow && Cycle)
             {
                 player.settings.mute = true;
             }
             //als je op de up arrow drukt zal de applicatie de volume terug herstellen
-            if (keypress.Key == ConsoleKey.DownArrow)
+            if (keypress.Key == ConsoleKey.DownArrow && Cycle)
             {
                 player.settings.mute = false;
             }
 
-            
+            /*bool pressed = Convert.ToBoolean(Console.ReadKey());
+            if (pressed && Cycle)
+            {
+                Console.WriteLine("Spacebar om te pauseren/play");
+                Console.WriteLine("Uparrow om te muten");
+                Console.WriteLine("Downarrow om te ontmuten");
+                Console.WriteLine("Enter om liedje te stoppen");
+                Console.WriteLine("Backspace om geluid te veranderen");
+            }*/
 
+
+
+
+            Cycle = !Cycle;
 
             Console.Read();
 
