@@ -1,0 +1,4 @@
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 3\WpfEllipsen\obj\Debug\MainWindow.g.cs
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 3\WpfEllipsen\obj\Debug\App.g.cs
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 3\WpfEllipsen\obj\Debug\WpfEllipsen_MarkupCompile.cache
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 3\WpfEllipsen\obj\Debug\WpfEllipsen_MarkupCompile.lref

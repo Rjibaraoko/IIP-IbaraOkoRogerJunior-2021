@@ -1,0 +1,7 @@
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 3\ConsoleGGD\bin\Debug\ConsoleGGD.exe.config
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 3\ConsoleGGD\bin\Debug\ConsoleGGD.exe
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 3\ConsoleGGD\bin\Debug\ConsoleGGD.pdb
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 3\ConsoleGGD\obj\Debug\ConsoleGGD.csproj.CoreCompileInputs.cache
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 3\ConsoleGGD\obj\Debug\ConsoleGGD.exe
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 3\ConsoleGGD\obj\Debug\ConsoleGGD.pdb
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 3\ConsoleGGD\obj\Debug\ConsoleGGD.csprojAssemblyReference.cache

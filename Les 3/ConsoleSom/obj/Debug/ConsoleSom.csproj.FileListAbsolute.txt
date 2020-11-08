@@ -1,0 +1,6 @@
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 3\ConsoleSom\bin\Debug\ConsoleSom.exe.config
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 3\ConsoleSom\bin\Debug\ConsoleSom.exe
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 3\ConsoleSom\bin\Debug\ConsoleSom.pdb
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 3\ConsoleSom\obj\Debug\ConsoleSom.csproj.CoreCompileInputs.cache
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 3\ConsoleSom\obj\Debug\ConsoleSom.exe
+F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 3\ConsoleSom\obj\Debug\ConsoleSom.pdb
