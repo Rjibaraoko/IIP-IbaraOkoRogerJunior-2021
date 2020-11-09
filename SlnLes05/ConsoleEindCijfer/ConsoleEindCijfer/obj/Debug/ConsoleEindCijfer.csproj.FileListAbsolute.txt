@@ -1,0 +1,6 @@
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\ConsoleEindCijfer\ConsoleEindCijfer\bin\Debug\ConsoleEindCijfer.exe.config
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\ConsoleEindCijfer\ConsoleEindCijfer\bin\Debug\ConsoleEindCijfer.exe
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\ConsoleEindCijfer\ConsoleEindCijfer\bin\Debug\ConsoleEindCijfer.pdb
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\ConsoleEindCijfer\ConsoleEindCijfer\obj\Debug\ConsoleEindCijfer.csprojAssemblyReference.cache
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\ConsoleEindCijfer\ConsoleEindCijfer\obj\Debug\ConsoleEindCijfer.exe
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\ConsoleEindCijfer\ConsoleEindCijfer\obj\Debug\ConsoleEindCijfer.pdb

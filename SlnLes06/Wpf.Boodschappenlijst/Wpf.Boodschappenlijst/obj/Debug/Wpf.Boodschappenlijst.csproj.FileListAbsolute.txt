@@ -1,0 +1,14 @@
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\Wpf.Boodschappenlijst\Wpf.Boodschappenlijst\obj\Debug\Wpf.Boodschappenlijst.csprojAssemblyReference.cache
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\Wpf.Boodschappenlijst\Wpf.Boodschappenlijst\obj\Debug\MainWindow.g.cs
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\Wpf.Boodschappenlijst\Wpf.Boodschappenlijst\obj\Debug\App.g.cs
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\Wpf.Boodschappenlijst\Wpf.Boodschappenlijst\obj\Debug\Wpf.Boodschappenlijst_MarkupCompile.cache
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\Wpf.Boodschappenlijst\Wpf.Boodschappenlijst\obj\Debug\Wpf.Boodschappenlijst_MarkupCompile.lref
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\Wpf.Boodschappenlijst\Wpf.Boodschappenlijst\obj\Debug\MainWindow.baml
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\Wpf.Boodschappenlijst\Wpf.Boodschappenlijst\obj\Debug\Wpf.Boodschappenlijst.g.resources
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\Wpf.Boodschappenlijst\Wpf.Boodschappenlijst\obj\Debug\Wpf.Boodschappenlijst.Properties.Resources.resources
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\Wpf.Boodschappenlijst\Wpf.Boodschappenlijst\obj\Debug\Wpf.Boodschappenlijst.csproj.GenerateResource.cache
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\Wpf.Boodschappenlijst\Wpf.Boodschappenlijst\obj\Debug\Wpf.Boodschappenlijst.exe
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\Wpf.Boodschappenlijst\Wpf.Boodschappenlijst\obj\Debug\Wpf.Boodschappenlijst.pdb
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\Wpf.Boodschappenlijst\Wpf.Boodschappenlijst\bin\Debug\Wpf.Boodschappenlijst.exe.config
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\Wpf.Boodschappenlijst\Wpf.Boodschappenlijst\bin\Debug\Wpf.Boodschappenlijst.exe
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\Wpf.Boodschappenlijst\Wpf.Boodschappenlijst\bin\Debug\Wpf.Boodschappenlijst.pdb

@@ -1,0 +1,6 @@
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\ConsoleRaden\ConsoleRaden\bin\Debug\ConsoleRaden.exe.config
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\ConsoleRaden\ConsoleRaden\bin\Debug\ConsoleRaden.exe
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\ConsoleRaden\ConsoleRaden\bin\Debug\ConsoleRaden.pdb
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\ConsoleRaden\ConsoleRaden\obj\Debug\ConsoleRaden.csprojAssemblyReference.cache
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\ConsoleRaden\ConsoleRaden\obj\Debug\ConsoleRaden.exe
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\ConsoleRaden\ConsoleRaden\obj\Debug\ConsoleRaden.pdb

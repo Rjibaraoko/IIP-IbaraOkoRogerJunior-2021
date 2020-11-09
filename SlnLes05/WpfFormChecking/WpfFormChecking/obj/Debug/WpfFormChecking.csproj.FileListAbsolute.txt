@@ -1,0 +1,14 @@
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\WpfFormChecking\WpfFormChecking\bin\Debug\WpfFormChecking.exe.config
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\WpfFormChecking\WpfFormChecking\bin\Debug\WpfFormChecking.exe
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\WpfFormChecking\WpfFormChecking\bin\Debug\WpfFormChecking.pdb
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\WpfFormChecking\WpfFormChecking\obj\Debug\WpfFormChecking.csprojAssemblyReference.cache
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\WpfFormChecking\WpfFormChecking\obj\Debug\MainWindow.g.cs
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\WpfFormChecking\WpfFormChecking\obj\Debug\App.g.cs
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\WpfFormChecking\WpfFormChecking\obj\Debug\WpfFormChecking_MarkupCompile.cache
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\WpfFormChecking\WpfFormChecking\obj\Debug\WpfFormChecking_MarkupCompile.lref
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\WpfFormChecking\WpfFormChecking\obj\Debug\MainWindow.baml
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\WpfFormChecking\WpfFormChecking\obj\Debug\WpfFormChecking.g.resources
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\WpfFormChecking\WpfFormChecking\obj\Debug\WpfFormChecking.Properties.Resources.resources
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\WpfFormChecking\WpfFormChecking\obj\Debug\WpfFormChecking.csproj.GenerateResource.cache
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\WpfFormChecking\WpfFormChecking\obj\Debug\WpfFormChecking.exe
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\WpfFormChecking\WpfFormChecking\obj\Debug\WpfFormChecking.pdb

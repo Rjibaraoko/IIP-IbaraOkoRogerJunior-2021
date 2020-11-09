@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29411.108
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleKlinkers", "ConsoleKlinkers\ConsoleKlinkers.csproj", "{8073AA0A-BDD5-44BA-98C2-1689A2F45259}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8073AA0A-BDD5-44BA-98C2-1689A2F45259}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8073AA0A-BDD5-44BA-98C2-1689A2F45259}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8073AA0A-BDD5-44BA-98C2-1689A2F45259}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8073AA0A-BDD5-44BA-98C2-1689A2F45259}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EBFD325A-5736-461C-A6F4-55B38FCFE6B7}
+	EndGlobalSection
+EndGlobal

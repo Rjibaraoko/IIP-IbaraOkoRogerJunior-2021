@@ -1,0 +1,6 @@
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\ConsoleKlinkers\ConsoleKlinkers\bin\Debug\ConsoleKlinkers.exe.config
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\ConsoleKlinkers\ConsoleKlinkers\bin\Debug\ConsoleKlinkers.exe
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\ConsoleKlinkers\ConsoleKlinkers\bin\Debug\ConsoleKlinkers.pdb
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\ConsoleKlinkers\ConsoleKlinkers\obj\Debug\ConsoleKlinkers.csprojAssemblyReference.cache
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\ConsoleKlinkers\ConsoleKlinkers\obj\Debug\ConsoleKlinkers.exe
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\ConsoleKlinkers\ConsoleKlinkers\obj\Debug\ConsoleKlinkers.pdb

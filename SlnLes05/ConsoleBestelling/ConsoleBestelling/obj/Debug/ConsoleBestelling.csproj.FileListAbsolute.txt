@@ -1,0 +1,6 @@
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\ConsoleBestelling\ConsoleBestelling\bin\Debug\ConsoleBestelling.exe.config
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\ConsoleBestelling\ConsoleBestelling\bin\Debug\ConsoleBestelling.exe
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\ConsoleBestelling\ConsoleBestelling\bin\Debug\ConsoleBestelling.pdb
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\ConsoleBestelling\ConsoleBestelling\obj\Debug\ConsoleBestelling.csprojAssemblyReference.cache
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\ConsoleBestelling\ConsoleBestelling\obj\Debug\ConsoleBestelling.exe
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\ConsoleBestelling\ConsoleBestelling\obj\Debug\ConsoleBestelling.pdb

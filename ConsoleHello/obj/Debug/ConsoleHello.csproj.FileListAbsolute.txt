@@ -1,7 +1,0 @@
-F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\ConsoleHello\bin\Debug\ConsoleHello.exe.config
-F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\ConsoleHello\bin\Debug\ConsoleHello.exe
-F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\ConsoleHello\bin\Debug\ConsoleHello.pdb
-F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\ConsoleHello\obj\Debug\ConsoleHello.csprojAssemblyReference.cache
-F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\ConsoleHello\obj\Debug\ConsoleHello.csproj.CoreCompileInputs.cache
-F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\ConsoleHello\obj\Debug\ConsoleHello.exe
-F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\ConsoleHello\obj\Debug\ConsoleHello.pdb

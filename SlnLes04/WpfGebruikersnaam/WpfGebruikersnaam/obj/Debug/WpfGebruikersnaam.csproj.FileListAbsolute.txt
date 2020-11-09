@@ -1,0 +1,14 @@
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\WpfGebruikersnaam\WpfGebruikersnaam\bin\Debug\WpfGebruikersnaam.exe.config
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\WpfGebruikersnaam\WpfGebruikersnaam\bin\Debug\WpfGebruikersnaam.exe
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\WpfGebruikersnaam\WpfGebruikersnaam\bin\Debug\WpfGebruikersnaam.pdb
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\WpfGebruikersnaam\WpfGebruikersnaam\obj\Debug\WpfGebruikersnaam.csprojAssemblyReference.cache
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\WpfGebruikersnaam\WpfGebruikersnaam\obj\Debug\MainWindow.g.cs
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\WpfGebruikersnaam\WpfGebruikersnaam\obj\Debug\App.g.cs
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\WpfGebruikersnaam\WpfGebruikersnaam\obj\Debug\WpfGebruikersnaam_MarkupCompile.cache
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\WpfGebruikersnaam\WpfGebruikersnaam\obj\Debug\WpfGebruikersnaam_MarkupCompile.lref
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\WpfGebruikersnaam\WpfGebruikersnaam\obj\Debug\MainWindow.baml
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\WpfGebruikersnaam\WpfGebruikersnaam\obj\Debug\WpfGebruikersnaam.g.resources
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\WpfGebruikersnaam\WpfGebruikersnaam\obj\Debug\WpfGebruikersnaam.Properties.Resources.resources
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\WpfGebruikersnaam\WpfGebruikersnaam\obj\Debug\WpfGebruikersnaam.csproj.GenerateResource.cache
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\WpfGebruikersnaam\WpfGebruikersnaam\obj\Debug\WpfGebruikersnaam.exe
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\WpfGebruikersnaam\WpfGebruikersnaam\obj\Debug\WpfGebruikersnaam.pdb

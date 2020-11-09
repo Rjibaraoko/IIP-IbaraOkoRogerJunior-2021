@@ -1,9 +1,0 @@
-F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Project\Project Ibara-Oko Roger Junior\ConsoleMusicPlayer\bin\Debug\ConsoleMusicPlayer.exe.config
-F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Project\Project Ibara-Oko Roger Junior\ConsoleMusicPlayer\bin\Debug\ConsoleMusicPlayer.exe
-F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Project\Project Ibara-Oko Roger Junior\ConsoleMusicPlayer\bin\Debug\ConsoleMusicPlayer.pdb
-F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Project\Project Ibara-Oko Roger Junior\ConsoleMusicPlayer\obj\Debug\ConsoleMusicPlayer.csprojAssemblyReference.cache
-F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Project\Project Ibara-Oko Roger Junior\ConsoleMusicPlayer\obj\Debug\Interop.WMPLib.dll
-F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Project\Project Ibara-Oko Roger Junior\ConsoleMusicPlayer\obj\Debug\ConsoleMusicPlayer.csproj.ResolveComReference.cache
-F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Project\Project Ibara-Oko Roger Junior\ConsoleMusicPlayer\obj\Debug\ConsoleMusicPlayer.csproj.CoreCompileInputs.cache
-F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Project\Project Ibara-Oko Roger Junior\ConsoleMusicPlayer\obj\Debug\ConsoleMusicPlayer.exe
-F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Project\Project Ibara-Oko Roger Junior\ConsoleMusicPlayer\obj\Debug\ConsoleMusicPlayer.pdb

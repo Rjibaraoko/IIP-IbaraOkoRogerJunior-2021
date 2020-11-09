@@ -1,0 +1,6 @@
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\ConsoleLancering\ConsoleLancering\bin\Debug\ConsoleLancering.exe.config
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\ConsoleLancering\ConsoleLancering\bin\Debug\ConsoleLancering.exe
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\ConsoleLancering\ConsoleLancering\bin\Debug\ConsoleLancering.pdb
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\ConsoleLancering\ConsoleLancering\obj\Debug\ConsoleLancering.csprojAssemblyReference.cache
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\ConsoleLancering\ConsoleLancering\obj\Debug\ConsoleLancering.exe
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\ConsoleLancering\ConsoleLancering\obj\Debug\ConsoleLancering.pdb

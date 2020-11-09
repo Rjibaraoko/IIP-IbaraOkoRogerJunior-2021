@@ -1,0 +1,12 @@
+C:\Users\joao-\source\repos\ConsoleGedicht\ConsoleGedicht\bin\Debug\ConsoleGedicht.exe.config
+C:\Users\joao-\source\repos\ConsoleGedicht\ConsoleGedicht\bin\Debug\ConsoleGedicht.exe
+C:\Users\joao-\source\repos\ConsoleGedicht\ConsoleGedicht\bin\Debug\ConsoleGedicht.pdb
+C:\Users\joao-\source\repos\ConsoleGedicht\ConsoleGedicht\obj\Debug\ConsoleGedicht.csprojAssemblyReference.cache
+C:\Users\joao-\source\repos\ConsoleGedicht\ConsoleGedicht\obj\Debug\ConsoleGedicht.exe
+C:\Users\joao-\source\repos\ConsoleGedicht\ConsoleGedicht\obj\Debug\ConsoleGedicht.pdb
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\ConsoleGedicht\ConsoleGedicht\bin\Debug\ConsoleGedicht.exe.config
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\ConsoleGedicht\ConsoleGedicht\bin\Debug\ConsoleGedicht.exe
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\ConsoleGedicht\ConsoleGedicht\bin\Debug\ConsoleGedicht.pdb
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\ConsoleGedicht\ConsoleGedicht\obj\Debug\ConsoleGedicht.csprojAssemblyReference.cache
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\ConsoleGedicht\ConsoleGedicht\obj\Debug\ConsoleGedicht.exe
+C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\ConsoleGedicht\ConsoleGedicht\obj\Debug\ConsoleGedicht.pdb
