@@ -18,15 +18,13 @@ namespace ConsoleTafels
             Console.ReadKey();
         }
 
-        private static int DrukTafel(int getal, int lengte)
+        private static void DrukTafel(int getal, int lengte)
         {
-            int result = getal * lengte;
             for (int i = 1; i <= lengte; i++)
             {
                 int resultaat = getal * i;
                 Console.WriteLine($"{getal} X {i} = {resultaat}");
             }
-            return result;
             
         }
     }
