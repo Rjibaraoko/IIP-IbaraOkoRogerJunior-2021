@@ -1,0 +1,7 @@
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\SlnLes07\ConsoleTafels\bin\Debug\ConsoleTafels.exe.config
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\SlnLes07\ConsoleTafels\bin\Debug\ConsoleTafels.exe
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\SlnLes07\ConsoleTafels\bin\Debug\ConsoleTafels.pdb
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\SlnLes07\ConsoleTafels\obj\Debug\ConsoleTafels.csprojAssemblyReference.cache
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\SlnLes07\ConsoleTafels\obj\Debug\ConsoleTafels.csproj.CoreCompileInputs.cache
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\SlnLes07\ConsoleTafels\obj\Debug\ConsoleTafels.exe
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\SlnLes07\ConsoleTafels\obj\Debug\ConsoleTafels.pdb

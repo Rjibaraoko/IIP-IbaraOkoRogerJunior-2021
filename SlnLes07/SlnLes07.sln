@@ -3,7 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30621.155
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTafels", "ConsoleTafels\ConsoleTafels.csproj", "{945B74DF-3EC4-4603-A7A2-6FF3D91BE18E}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{945B74DF-3EC4-4603-A7A2-6FF3D91BE18E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{945B74DF-3EC4-4603-A7A2-6FF3D91BE18E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{945B74DF-3EC4-4603-A7A2-6FF3D91BE18E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{945B74DF-3EC4-4603-A7A2-6FF3D91BE18E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
