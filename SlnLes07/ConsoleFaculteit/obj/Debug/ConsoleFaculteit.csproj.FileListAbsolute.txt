@@ -1,0 +1,7 @@
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\SlnLes07\ConsoleFaculteit\bin\Debug\ConsoleFaculteit.exe.config
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\SlnLes07\ConsoleFaculteit\bin\Debug\ConsoleFaculteit.exe
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\SlnLes07\ConsoleFaculteit\bin\Debug\ConsoleFaculteit.pdb
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\SlnLes07\ConsoleFaculteit\obj\Debug\ConsoleFaculteit.csproj.CoreCompileInputs.cache
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\SlnLes07\ConsoleFaculteit\obj\Debug\ConsoleFaculteit.exe
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\SlnLes07\ConsoleFaculteit\obj\Debug\ConsoleFaculteit.pdb
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\SlnLes07\ConsoleFaculteit\obj\Debug\ConsoleFaculteit.csprojAssemblyReference.cache
