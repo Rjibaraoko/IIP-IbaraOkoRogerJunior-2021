@@ -23,8 +23,7 @@ namespace ConsoleFaculteit
             {
                 int resultaat = i * i;
                 Console.WriteLine($"de faculteit is {resultaat}");
-                
-
+             
             }
             return n;
 
