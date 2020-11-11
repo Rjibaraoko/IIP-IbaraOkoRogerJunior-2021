@@ -1,0 +1,7 @@
+C:\Users\junio\Documents\GitHub\IIP-IbaraOkoRogerJunior-2021\SlnLes07\ConsoleSchrikkeljaar\obj\Debug\ConsoleSchrikkeljaar.csprojAssemblyReference.cache
+C:\Users\junio\Documents\GitHub\IIP-IbaraOkoRogerJunior-2021\SlnLes07\ConsoleSchrikkeljaar\obj\Debug\ConsoleSchrikkeljaar.csproj.CoreCompileInputs.cache
+C:\Users\junio\Documents\GitHub\IIP-IbaraOkoRogerJunior-2021\SlnLes07\ConsoleSchrikkeljaar\bin\Debug\ConsoleSchrikkeljaar.exe.config
+C:\Users\junio\Documents\GitHub\IIP-IbaraOkoRogerJunior-2021\SlnLes07\ConsoleSchrikkeljaar\bin\Debug\ConsoleSchrikkeljaar.exe
+C:\Users\junio\Documents\GitHub\IIP-IbaraOkoRogerJunior-2021\SlnLes07\ConsoleSchrikkeljaar\bin\Debug\ConsoleSchrikkeljaar.pdb
+C:\Users\junio\Documents\GitHub\IIP-IbaraOkoRogerJunior-2021\SlnLes07\ConsoleSchrikkeljaar\obj\Debug\ConsoleSchrikkeljaar.exe
+C:\Users\junio\Documents\GitHub\IIP-IbaraOkoRogerJunior-2021\SlnLes07\ConsoleSchrikkeljaar\obj\Debug\ConsoleSchrikkeljaar.pdb
