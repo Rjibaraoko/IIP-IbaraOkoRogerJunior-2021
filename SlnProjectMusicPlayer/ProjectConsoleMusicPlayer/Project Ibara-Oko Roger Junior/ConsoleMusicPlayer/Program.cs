@@ -61,75 +61,23 @@ namespace ConsoleMusicPlayer
             druk = 0;
 
             //een loop zodat als je op spacebar drukt hij niet onmiddelijk de rest van de functionaliteiten dropt
-            while (keypress.Key == ConsoleKey.Spacebar  )
+            while (keypress.Key != ConsoleKey.Escape)
             {
+                if (keypress.Key == ConsoleKey.Spacebar)
+                {
+                    player.controls.pause();
+                    druk++;
+                }
                 
-                player.controls.pause();
-                druk++;
-
-
                 if (keypress.Key == ConsoleKey.Spacebar &&  druk > 1)
                 {
                     player.controls.play();
                     druk--;
                     
                 }
-
-            }
-            
-
-            //Hetzelfde als voor de spacebar
-            if (keypress.Key == ConsoleKey.Enter  )
-            {
-                player.controls.stop();
                 
             }
-
-            //Hier is er normaal gezien een loop voor nodig maar aangezien het mij niet lukt om dit te 
-            //loopen heb ik besloten voor nu een if statement te gebruiken
-            if (keypress.Key == ConsoleKey.Backspace  )
-            {
-                int huidigVolume = player.settings.volume;
-                Console.WriteLine($"Huidig volume: {huidigVolume}");
-
-                Console.WriteLine("Naar hoeveel wil je het volume veranderen?");
-                player.settings.volume = Convert.ToInt32(Console.ReadLine());
-
-                //int Volumes = Convert.ToInt32(Console.ReadLine());
-                /*if (Volumes > 100 )
-                {
-                    Console.WriteLine("Ongeldige waarde. Geef een waarde onder de 100");
-                }
-
-                if (Volumes < 0)
-                {
-                    Console.WriteLine("Ongeldige waarde. Geef een waarde boven de 0");
-                }*/
-
-
-            }
-
-            //als je op de up arrow drkt zal de app de volume helemaal muten
-            if (keypress.Key == ConsoleKey.UpArrow  )
-            {
-                player.settings.mute = true;
-            }
-            //als je op de up arrow drukt zal de applicatie de volume terug herstellen
-            if (keypress.Key == ConsoleKey.DownArrow  )
-            {
-                player.settings.mute = false;
-            }
-
-            /*bool pressed = Convert.ToBoolean(Console.ReadKey());
-            if (pressed  )
-            {
-                Console.WriteLine("Spacebar om te pauseren/play");
-                Console.WriteLine("Uparrow om te muten");
-                Console.WriteLine("Downarrow om te ontmuten");
-                Console.WriteLine("Enter om liedje te stoppen");
-                Console.WriteLine("Backspace om geluid te veranderen");
-            }*/
-
+            
             Console.Read();
 
 

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Win32;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -25,21 +26,26 @@ namespace WPFMusicPlayer
         {
             InitializeComponent();
             WindowsMediaPlayer player = new WindowsMediaPlayer();
-
+            
             //De path naar de folder van de muzieken
             string musicFolder = Environment.GetFolderPath(Environment.SpecialFolder.MyMusic);
-
-            string input = Convert.ToString(listbx.SelectedItem);
-
-            //De exacte path naar het liedje met de naam                         
-
             player.URL = System.IO.Path.Combine(musicFolder, input);
-        }
+            
+            player.controls.stop();
+            player.controls.pause();
 
+        }
+        string path;
         private void PLAY_Click(object sender, RoutedEventArgs e)
         {
-            player.controls.play();
 
+            player.controls.play();
+        }
+
+        private void GET_PATH_Click(object sender, RoutedEventArgs e)
+        {
+            
+            
         }
     }
 }
