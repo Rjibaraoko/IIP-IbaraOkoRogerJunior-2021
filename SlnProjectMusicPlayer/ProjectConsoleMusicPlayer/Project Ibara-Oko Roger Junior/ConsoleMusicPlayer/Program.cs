@@ -22,15 +22,26 @@ namespace ConsoleMusicPlayer
             Console.WriteLine("\n");
             //Wat de user zal inzetten als path
             var input = Console.ReadLine();
-              
+
+            Console.WriteLine("Spacebar om te pauseren/play");
+            Console.WriteLine("Uparrow om te muten");
+            Console.WriteLine("Downarrow om te ontmuten");
+            Console.WriteLine("Enter om liedje te stoppen");
+            Console.WriteLine("Backspace om geluid te veranderen");
+            Console.WriteLine("schrijf 'quit' om uit de applicatie te komen");
+            Console.ReadKey();
+            /*while (pressed)
+            {
                 Console.WriteLine("Spacebar om te pauseren/play");
                 Console.WriteLine("Uparrow om te muten");
                 Console.WriteLine("Downarrow om te ontmuten");
                 Console.WriteLine("Enter om liedje te stoppen");
                 Console.WriteLine("Backspace om geluid te veranderen");
                 Console.WriteLine("schrijf 'quit' om uit de applicatie te komen");
+            }*/
+                
 
-            Console.ReadKey();
+            
 
 
 
@@ -55,31 +66,85 @@ namespace ConsoleMusicPlayer
             string path = input;
             FileInfo filepath = new FileInfo(path);
 
-            //
+            //state = 0 is pause 
+            //state = 1 is play
+            //state = 2 volume weizigen terwijl pause
+            //state = 3 volume weizigen terwijl play
 
-            int druk = Convert.ToInt32(keypress.Key);
-            druk = 0;
-
+            int state = Convert.ToInt32(keypress.Key);
+            state = 1;
+            
             //een loop zodat als je op spacebar drukt hij niet onmiddelijk de rest van de functionaliteiten dropt
             while (keypress.Key != ConsoleKey.Escape)
             {
-                if (keypress.Key == ConsoleKey.Spacebar)
+                //als het muziek op start of pause is dan kan je steeds de volume veranderen
+                if (state == 3 || state == 4)
                 {
-                    player.controls.pause();
-                    druk++;
-                }
-                
-                if (keypress.Key == ConsoleKey.Spacebar &&  druk > 1)
-                {
-                    player.controls.play();
-                    druk--;
+                    
+                    if (keypress.Key == ConsoleKey.Enter)
+                    {
+                        //c'est a cet endroit la qu'il doit lire l'input de l'utilisateur
+                        int volume = Convert.ToInt32(Console.ReadLine());
+                        player.settings.volume = volume;
+                        if (state == 3)
+                        {
+                            state = 0;
+                        }
+                        else if (state == 4)
+                        {
+                            state = 1;
+                        }
+                    }
                     
                 }
+                else
+                {
+                    if (keypress.Key == ConsoleKey.Spacebar && state == 1)
+                    {
+                        player.controls.pause();
+                        state = 0;
+                        Console.WriteLine(state);
+                    }
+
+                    else if (keypress.Key == ConsoleKey.Spacebar && state == 0)
+                    {
+                        player.controls.play();
+                        state = 1;
+                        Console.WriteLine(state);
+
+                    }
+                    else if (keypress.Key == ConsoleKey.Tab)
+                    {
+                        player.controls.stop();
+                    }
+                    else if (keypress.Key == ConsoleKey.UpArrow)
+                    {
+
+                        int huidigVolume = player.settings.volume;
+                        Console.WriteLine($"Huidig volume: {huidigVolume}");
+                        Console.WriteLine("Tot welk volume wilt u komen");
+
+                        if (state == 0)
+                        {
+                            state = 3;
+
+                        }
+                        else if (state == 1)
+                        {
+                            state = 4;
+                        }
+                    }
+
+                }
+
+
+                keypress = Console.ReadKey();
                 
             }
-            
-            Console.Read();
 
+            //ajouter une fonction pause pour que le loop sois moins lourd pour le pc
+            
+           
 
             
         }
