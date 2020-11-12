@@ -39,12 +39,7 @@ namespace ConsoleMusicPlayer
                 Console.WriteLine("Backspace om geluid te veranderen");
                 Console.WriteLine("schrijf 'quit' om uit de applicatie te komen");
             }*/
-                
-
-            
-
-
-
+      
             //What zal het zoeken van de file in het systeem zorgen
             //System.Diagnostics.Process.Start(input);
 
