@@ -30,15 +30,7 @@ namespace ConsoleMusicPlayer
             Console.WriteLine("Backspace om geluid te veranderen");
             Console.WriteLine("schrijf 'quit' om uit de applicatie te komen");
             Console.ReadKey();
-            /*while (pressed)
-            {
-                Console.WriteLine("Spacebar om te pauseren/play");
-                Console.WriteLine("Uparrow om te muten");
-                Console.WriteLine("Downarrow om te ontmuten");
-                Console.WriteLine("Enter om liedje te stoppen");
-                Console.WriteLine("Backspace om geluid te veranderen");
-                Console.WriteLine("schrijf 'quit' om uit de applicatie te komen");
-            }*/
+
       
             //What zal het zoeken van de file in het systeem zorgen
             //System.Diagnostics.Process.Start(input);
@@ -72,6 +64,15 @@ namespace ConsoleMusicPlayer
             //een loop zodat als je op spacebar drukt hij niet onmiddelijk de rest van de functionaliteiten dropt
             while (keypress.Key != ConsoleKey.Escape)
             {
+                
+                    Console.WriteLine("Spacebar om te pauseren/play");
+                    Console.WriteLine("Uparrow om te muten");
+                    Console.WriteLine("Downarrow om te ontmuten");
+                    Console.WriteLine("Enter om liedje te stoppen");
+                    Console.WriteLine("Backspace om geluid te veranderen");
+                    Console.WriteLine("schrijf 'quit' om uit de applicatie te komen");
+                    Console.ReadKey();
+                
                 //als het muziek op start of pause is dan kan je steeds de volume veranderen
                 if (state == 3 || state == 4)
                 {
