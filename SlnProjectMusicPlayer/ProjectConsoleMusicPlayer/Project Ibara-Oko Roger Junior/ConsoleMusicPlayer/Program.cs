@@ -87,7 +87,7 @@ namespace ConsoleMusicPlayer
                 {
                         //na het stoppen van het liedje zal de user een nieuw liedje kunnen inputten
                         player.controls.stop();
-                        Console.WriteLine("STOPED");
+                        Console.WriteLine("STOPPED");
                         Console.WriteLine("===========");
                         Console.WriteLine("Een ander bestand afspelen:");
                         Console.WriteLine("\n");
@@ -147,7 +147,7 @@ namespace ConsoleMusicPlayer
 
 
                 keypress = Console.ReadKey();
-                //om de console meer user friendly te maken en properder
+                //om de console meer proper en user friendly te houden
                 Console.Clear();
 
             }
