@@ -35,6 +35,7 @@ namespace ConsoleMusicPlayer
             Console.WriteLine("\n");
             Console.WriteLine("Lijst van de gegeven lietjes");
             Console.WriteLine("\n");
+            
 
             WindowsMediaPlayer player = new WindowsMediaPlayer();
 
@@ -81,6 +82,7 @@ namespace ConsoleMusicPlayer
                 Console.WriteLine("\n");
                 Console.WriteLine("Lijst van de gegeven lietjes");
                 Console.WriteLine("\n");
+
                 for (int i = 0; i < files.Count; i++)
                 {
                     Console.WriteLine($"{i}--" + Path.GetFileName(files[i]));
@@ -168,6 +170,7 @@ namespace ConsoleMusicPlayer
                         player.settings.mute = false;
                         Console.WriteLine("UNMUTED");
                     }
+                    //een liedje in de lijst toevoegen
                     else if (keypress.Key == ConsoleKey.PageUp)
                     {
                         Console.WriteLine("\n");
@@ -176,6 +179,7 @@ namespace ConsoleMusicPlayer
                         String toevoeging = Console.ReadLine();
                         files.Add(toevoeging);
                     }
+                    //een liedje in de lijst verwijderen
                     else if (keypress.Key == ConsoleKey.PageDown)
                     {
                         Console.WriteLine("\n");
