@@ -16,3 +16,12 @@ C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\SlnProjectMusicPlayer\ProjectCo
 C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\SlnProjectMusicPlayer\ProjectConsoleMusicPlayer\Project Ibara-Oko Roger Junior\ConsoleMusicPlayer\obj\Debug\ConsoleMusicPlayer.csproj.CoreCompileInputs.cache
 C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\SlnProjectMusicPlayer\ProjectConsoleMusicPlayer\Project Ibara-Oko Roger Junior\ConsoleMusicPlayer\obj\Debug\ConsoleMusicPlayer.exe
 C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\SlnProjectMusicPlayer\ProjectConsoleMusicPlayer\Project Ibara-Oko Roger Junior\ConsoleMusicPlayer\obj\Debug\ConsoleMusicPlayer.pdb
+C:\Users\junio\Documents\GitHub\IIP-IbaraOkoRogerJunior-2021\SlnProjectMusicPlayer\ProjectConsoleMusicPlayer\Project Ibara-Oko Roger Junior\ConsoleMusicPlayer\bin\Debug\ConsoleMusicPlayer.exe.config
+C:\Users\junio\Documents\GitHub\IIP-IbaraOkoRogerJunior-2021\SlnProjectMusicPlayer\ProjectConsoleMusicPlayer\Project Ibara-Oko Roger Junior\ConsoleMusicPlayer\bin\Debug\ConsoleMusicPlayer.exe
+C:\Users\junio\Documents\GitHub\IIP-IbaraOkoRogerJunior-2021\SlnProjectMusicPlayer\ProjectConsoleMusicPlayer\Project Ibara-Oko Roger Junior\ConsoleMusicPlayer\bin\Debug\ConsoleMusicPlayer.pdb
+C:\Users\junio\Documents\GitHub\IIP-IbaraOkoRogerJunior-2021\SlnProjectMusicPlayer\ProjectConsoleMusicPlayer\Project Ibara-Oko Roger Junior\ConsoleMusicPlayer\obj\Debug\ConsoleMusicPlayer.csprojAssemblyReference.cache
+C:\Users\junio\Documents\GitHub\IIP-IbaraOkoRogerJunior-2021\SlnProjectMusicPlayer\ProjectConsoleMusicPlayer\Project Ibara-Oko Roger Junior\ConsoleMusicPlayer\obj\Debug\Interop.WMPLib.dll
+C:\Users\junio\Documents\GitHub\IIP-IbaraOkoRogerJunior-2021\SlnProjectMusicPlayer\ProjectConsoleMusicPlayer\Project Ibara-Oko Roger Junior\ConsoleMusicPlayer\obj\Debug\ConsoleMusicPlayer.csproj.ResolveComReference.cache
+C:\Users\junio\Documents\GitHub\IIP-IbaraOkoRogerJunior-2021\SlnProjectMusicPlayer\ProjectConsoleMusicPlayer\Project Ibara-Oko Roger Junior\ConsoleMusicPlayer\obj\Debug\ConsoleMusicPlayer.csproj.CoreCompileInputs.cache
+C:\Users\junio\Documents\GitHub\IIP-IbaraOkoRogerJunior-2021\SlnProjectMusicPlayer\ProjectConsoleMusicPlayer\Project Ibara-Oko Roger Junior\ConsoleMusicPlayer\obj\Debug\ConsoleMusicPlayer.exe
+C:\Users\junio\Documents\GitHub\IIP-IbaraOkoRogerJunior-2021\SlnProjectMusicPlayer\ProjectConsoleMusicPlayer\Project Ibara-Oko Roger Junior\ConsoleMusicPlayer\obj\Debug\ConsoleMusicPlayer.pdb

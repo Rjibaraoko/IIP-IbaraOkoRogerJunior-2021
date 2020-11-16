@@ -113,6 +113,7 @@ namespace ConsoleMusicPlayer
                         int liedje = Convert.ToInt32(Console.ReadLine());
                         player.URL = System.IO.Path.Combine(folderPath, files[liedje]);
                         Console.WriteLine($"Current song: {Path.GetFileName(files[liedje])}");
+                        Console.ForegroundColor = ConsoleColor.Red;
 
                         Console.WriteLine("\n");
                         /*if (state == 2)
