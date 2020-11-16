@@ -9,12 +9,14 @@
     <Grid>
         <Button x:Name="PAUSE" Content="PAUSE" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="80,184,0,0"/>
         <Button x:Name="STOP" Content="STOP" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="286,184,0,0"/>
-        <Button x:Name="PLAY" Content="PLAY" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="182,184,0,0" Click="PLAY_Click"/>
-        <Button x:Name="NEXT_TRACK" Content="NEXT TRACK" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="282,220,0,0" Height="25"/>
-        <Button x:Name="PREVIOUS_TRACK" Content="NEXT TRACK" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="76,220,0,0" Height="25"/>
-        <Button x:Name="GET_PATH" Content="GET PATH" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="182,220,0,0" Height="25" Click="GET_PATH_Click"/>
+        <Button x:Name="PLAY" Content="PLAY" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="182,225,0,0" Click="PLAY_Click"/>
+        <Button x:Name="NEXT_TRACK" Content="NEXT TRACK" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="294,220,0,0" Height="25"/>
+        <Button x:Name="PREVIOUS_TRACK" Content="PREVIOUS TRACK" HorizontalAlignment="Left" VerticalAlignment="Top" Width="116" Margin="39,220,0,0" Height="25"/>
+        <Button x:Name="GET_PATH" Content="GET PATH" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="182,184,0,0" Height="25" Click="GET_PATH_Click"/>
         <ListBox x:Name="Medialist" HorizontalAlignment="Left" Height="328" VerticalAlignment="Top" Width="278" Margin="489,52,0,0" SelectionChanged="Medialist_SelectionChanged"/>
-        <TextBox x:Name="Pathtxt" HorizontalAlignment="Left" Height="40" TextWrapping="Wrap" VerticalAlignment="Top" Width="255" Margin="86,52,0,0" />
+        <TextBox x:Name="Pathtxt" HorizontalAlignment="Left" Height="40" TextWrapping="Wrap" VerticalAlignment="Top" Width="255" Margin="86,52,0,0" TextChanged="Pathtxt_TextChanged" />
+        <Slider HorizontalAlignment="Left" VerticalAlignment="Top" Margin="76,331,0,0" Width="297"/>
+        <Label Content="Current song playing:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="86,280,0,0" RenderTransformOrigin="0.421,-1.731" Width="275"/>
 
     </Grid>
 </Window>

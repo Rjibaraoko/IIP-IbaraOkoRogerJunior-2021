@@ -63,7 +63,28 @@ namespace WPFMusicPlayer
 
         private void Medialist_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
+            /*string folderPath = Environment.GetFolderPath(Environment.SpecialFolder.MyMusic); //verandert MyDocuments naar MyMusic
+            string startfolder = System.IO.Path.Combine(folderPath, Pathtxt.Text);
+            // open stream and start reading
+            string path = Pathtxt.Text;
+            string[] array = Directory.GetFiles(startfolder); //Pathtxt.Text zal niet werken dus placeholder
+
+            List<String> files = array.ToList();
+            for (int i = 0; i < files.Count; i++)
+            {
+                Console.WriteLine($"{i}--" + System.IO.Path.GetFileName(files[i]));
+
+            }*/
             
+        }
+
+        private void Pathtxt_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            string folderPath = Environment.GetFolderPath(Environment.SpecialFolder.MyMusic); //verandert MyDocuments naar MyMusic
+            string startfolder = System.IO.Path.Combine(folderPath, Pathtxt.Text);
+            // open stream and start reading
+            string path = Pathtxt.Text;
+            string[] array = Directory.GetFiles(startfolder); //Pathtxt.Text zal niet werken dus placeholder
         }
     }
 }
