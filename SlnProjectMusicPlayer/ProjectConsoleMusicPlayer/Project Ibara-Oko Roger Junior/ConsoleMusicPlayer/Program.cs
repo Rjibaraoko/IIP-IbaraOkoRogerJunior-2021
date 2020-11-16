@@ -179,7 +179,7 @@ namespace ConsoleMusicPlayer
                     else if (keypress.Key == ConsoleKey.PageDown)
                     {
                         Console.WriteLine("\n");
-                        Console.WriteLine("Wilt u een liedje verwijderen van de lijst?");
+                        Console.WriteLine("Welk liedje wilt u verwijderen van de lijst?");
                         Console.WriteLine("\n");
                         int liedje = Convert.ToInt32(Console.ReadLine());
 

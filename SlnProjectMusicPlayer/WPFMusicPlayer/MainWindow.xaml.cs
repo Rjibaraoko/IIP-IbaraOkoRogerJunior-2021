@@ -1,6 +1,8 @@
 ﻿using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
+using System.Collections;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -26,26 +28,41 @@ namespace WPFMusicPlayer
         {
             InitializeComponent();
             WindowsMediaPlayer player = new WindowsMediaPlayer();
-            string input = Console.ReadLine();
-            
+
             //De path naar de folder van de muzieken
-            string musicFolder = Environment.GetFolderPath(Environment.SpecialFolder.MyMusic);
-            player.URL = System.IO.Path.Combine(musicFolder, input);
+            ////De path naar de folder van de muzieken
+            string folderPath = Environment.GetFolderPath(Environment.SpecialFolder.MyMusic); //verandert MyDocuments naar MyMusic
+            string startfolder = System.IO.Path.Combine(folderPath, Pathtxt.Text);
+            // open stream and start reading
+            string path = Pathtxt.Text;
+            string[] array = Directory.GetFiles(startfolder); //Pathtxt.Text zal niet werken dus placeholder
+
+            List<String> files = array.ToList();
             
-            player.controls.stop();
-            player.controls.pause();
+            //player.controls.stop();
+            //player.controls.pause();
 
         }
-        string path;
+        
         private void PLAY_Click(object sender, RoutedEventArgs e)
         {
-
+            WindowsMediaPlayer player = new WindowsMediaPlayer();
+            /*bool textValue = Convert.ToBoolean(Pathtxt.Text);
+            if (textValue == true)
+            {
+                //Medialist.Items
+            }*/
             player.controls.play();
         }
 
         private void GET_PATH_Click(object sender, RoutedEventArgs e)
         {
             
+            
+        }
+
+        private void Medialist_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
             
         }
     }
