@@ -40,7 +40,7 @@ namespace ConsoleMusicPlayer
 
             //De path naar de folder van de muzieken
             ////De path naar de folder van de muzieken
-            string folderPath = Environment.GetFolderPath(Environment.SpecialFolder.MyMusic);
+            string folderPath = Environment.GetFolderPath(Environment.SpecialFolder.MyMusic); //verandert MyDocuments naar MyMusic
             string startfolder = System.IO.Path.Combine(folderPath, input);
             // open stream and start reading
             string[] array = Directory.GetFiles(input);
