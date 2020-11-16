@@ -26,6 +26,7 @@ namespace WPFMusicPlayer
         {
             InitializeComponent();
             WindowsMediaPlayer player = new WindowsMediaPlayer();
+            string input = Console.ReadLine();
             
             //De path naar de folder van de muzieken
             string musicFolder = Environment.GetFolderPath(Environment.SpecialFolder.MyMusic);

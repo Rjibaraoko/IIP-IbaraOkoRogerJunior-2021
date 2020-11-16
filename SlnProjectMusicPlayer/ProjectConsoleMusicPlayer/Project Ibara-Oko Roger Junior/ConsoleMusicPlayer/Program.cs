@@ -21,7 +21,7 @@ namespace ConsoleMusicPlayer
             Console.WriteLine("Folder listen:");
             Console.WriteLine("\n");
 
-            var input = Console.ReadLine();
+            string input = Console.ReadLine();
             Console.WriteLine("HOME BUTTON om liedjes uit de lijst de kunnen selecteren");
             Console.WriteLine("SPACEBAR om te pauseren/play");
             Console.WriteLine("UPARROW om geluid te veranderen");
@@ -40,7 +40,7 @@ namespace ConsoleMusicPlayer
 
             //De path naar de folder van de muzieken
             ////De path naar de folder van de muzieken
-            string folderPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+            string folderPath = Environment.GetFolderPath(Environment.SpecialFolder.MyMusic);
             string startfolder = System.IO.Path.Combine(folderPath, input);
             // open stream and start reading
             string[] array = Directory.GetFiles(input);
