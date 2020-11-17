@@ -82,7 +82,7 @@ namespace ConsoleMusicPlayer
                 Console.WriteLine("\n");
                 Console.WriteLine("Lijst van de gegeven lietjes");
                 Console.WriteLine("\n");
-
+                //loop zodat 1 elk liedje wordt getoont en 2 zodat naast elk liedje een cijfer van de index wordt toegevoegd
                 for (int i = 0; i < files.Count; i++)
                 {
                     Console.WriteLine($"{i}--" + Path.GetFileName(files[i]));

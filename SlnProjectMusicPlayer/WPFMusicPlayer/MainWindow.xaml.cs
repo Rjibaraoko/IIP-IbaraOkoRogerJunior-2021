@@ -28,17 +28,18 @@ namespace WPFMusicPlayer
         {
             InitializeComponent();
             WindowsMediaPlayer player = new WindowsMediaPlayer();
-
+            
             //De path naar de folder van de muzieken
             ////De path naar de folder van de muzieken
             string folderPath = Environment.GetFolderPath(Environment.SpecialFolder.MyMusic); //verandert MyDocuments naar MyMusic
             string startfolder = System.IO.Path.Combine(folderPath, Pathtxt.Text);
             // open stream and start reading
-            string path = Pathtxt.Text;
-            string[] array = Directory.GetFiles(startfolder); //Pathtxt.Text zal niet werken dus placeholder
+            //string path = Pathtxt.Text;
+            //string[] array = Directory.GetFiles(startfolder); //Pathtxt.Text zal niet werken dus placeholder
 
-            List<String> files = array.ToList();
-            
+            //List<String> files = array.ToList();
+            DirectoryInfo dInfo = new DirectoryInfo(startfolder);
+            FileInfo[] Files = dInfo.GetFiles();
             //player.controls.stop();
             //player.controls.pause();
 
@@ -80,11 +81,36 @@ namespace WPFMusicPlayer
 
         private void Pathtxt_TextChanged(object sender, TextChangedEventArgs e)
         {
-            string folderPath = Environment.GetFolderPath(Environment.SpecialFolder.MyMusic); //verandert MyDocuments naar MyMusic
-            string startfolder = System.IO.Path.Combine(folderPath, Pathtxt.Text);
-            // open stream and start reading
-            string path = Pathtxt.Text;
-            string[] array = Directory.GetFiles(startfolder); //Pathtxt.Text zal niet werken dus placeholder
+            DirectoryInfo dInfo = new DirectoryInfo(Pathtxt.Text);
+            FileInfo[] Files = dInfo.GetFiles();
+            foreach (FileInfo file in Files)
+            {
+                Medialist.Items.Add(file.Name);
+            }
+
+        }
+
+        private void Medialist_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            string selectedSong = Convert.ToString(Medialist.SelectedItem);
+            //What zal het zoeken van de file in het systeem zorgen
+            //System.Diagnostics.Process.Start(selectedSong);
+
+            //Het make gebruiken van de music player
+            WindowsMediaPlayer player = new WindowsMediaPlayer();
+
+            //De path naar de folder van de muzieken
+            string musicFolder = Environment.GetFolderPath(Environment.SpecialFolder.MyMusic);
+
+            //De exacte path naar het liedje met de naam                         
+            
+            player.URL = System.IO.Path.Combine(musicFolder, selectedSong);
+
+            player.controls.play();
+
+            //Medialist.SelectedItem = true;
+
+            lblCurrentSong.Content = "Current Song playing: " + Medialist.SelectedItem;
         }
     }
 }
