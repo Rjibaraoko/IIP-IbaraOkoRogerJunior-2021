@@ -38,8 +38,7 @@ namespace ConsoleMusicPlayer
             Console.WriteLine("\n");
             
 
-            //string path = input;
-            //FileInfo filepath = new FileInfo(path);
+            
 
             //state = 0 is pause 
             //state = 1 is play
@@ -154,7 +153,7 @@ namespace ConsoleMusicPlayer
                         Console.WriteLine($"Huidig volume: {huidigVolume}");
                         Console.WriteLine("Geef een waarde voor het volume die u wilt berijken (0-100)");
                         player.settings.volume = Convert.ToInt32(Console.ReadLine());
-                        //state = 1;
+                        
 
                     }
                     //op right arrow drukken zodat het geluid gemute wordt links om het te ontmuten

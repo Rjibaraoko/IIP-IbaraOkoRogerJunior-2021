@@ -10,17 +10,20 @@
         <Grid Background="Azure">
             <Label x:Name="Titlelbl" Content="&#x9;MUSIC PLAYER WPF" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="198,10,0,0" Width="298" Height="34" FontSize="18"/>
             <Label Content="Voeg hier de weg naar uw folder:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="99,56,0,0" Width="236"/>
+            <Button x:Name="MUTE" Content="MUTE" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="280,255,0,0" Height="25" Click="MUTE_Click" />
+            <Button x:Name="ADD_SONG_Copy" Content="ADD SONG" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="186,220,0,0" Height="25" />
+            <Image x:Name="NoteImage" HorizontalAlignment="Left" Height="65" VerticalAlignment="Top" Width="78"/>
         </Grid>
         <Button x:Name="PAUSE" Content="PAUSE" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="80,184,0,0" Click="PAUSE_Click"/>
         <Button x:Name="STOP" Content="STOP" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="286,184,0,0" Click="STOP_Click"/>
         <Button x:Name="PLAY" Content="PLAY" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="186,184,0,0" Click="PLAY_Click" RenderTransformOrigin="0.469,0.341"/>
         <Button x:Name="NEXT_TRACK" Content="NEXT TRACK" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="282,220,0,0" Height="25" Click="NEXT_TRACK_Click"/>
-        <Button x:Name="PREVIOUS_TRACK" Content="PREVIOUS TRACK" HorizontalAlignment="Left" VerticalAlignment="Top" Width="116" Margin="56,220,0,0" Height="25" Click="PREVIOUS_TRACK_Click"/>
+        <Button x:Name="PREVIOUS_TRACK" Content="PREVIOUS TRACK" HorizontalAlignment="Left" VerticalAlignment="Top" Width="99" Margin="64,220,0,0" Height="25" Click="PREVIOUS_TRACK_Click"/>
         <ListBox x:Name="Medialist" HorizontalAlignment="Left" Height="328" VerticalAlignment="Top" Width="278" Margin="489,52,0,0" SelectionChanged="Medialist_SelectionChanged" MouseDoubleClick="Medialist_MouseDoubleClick"/>
         <TextBox x:Name="Pathtxt" HorizontalAlignment="Left" Height="40" TextWrapping="Wrap" VerticalAlignment="Top" Width="255" Margin="94,87,0,0" TextChanged="Pathtxt_Text" />
-        <Slider x:Name="VolumeSlide" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="76,331,0,0" Width="297" />
-        <Label x:Name="lblCurrentSong" Content="Current song playing:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,284,0,0" RenderTransformOrigin="0.421,-1.731" Width="426"/>
-        <Button x:Name="ADD_SONG" Content="ADD SONG" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="186,220,0,0" Height="25" />
+        <Slider x:Name="VolumeSlide" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="56,345,0,0" Width="297" />
+        <Label x:Name="lblCurrentSong" Content="Current song playing:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="45,301,0,0" RenderTransformOrigin="0.421,-1.731" Width="426"/>
+        <Button x:Name="UNMUTE" Content="UNMUTE" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="64,254,0,0" Height="25" Click="UNMUTE_Click" />
         <Button x:Name="REMOVE_SONG" Content="REMOVE SONG" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="186,254,0,0" Height="25"/>
         <Label x:Name="Volume_" Content="Volume:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="86,363,0,0" Width="134"/>
 
