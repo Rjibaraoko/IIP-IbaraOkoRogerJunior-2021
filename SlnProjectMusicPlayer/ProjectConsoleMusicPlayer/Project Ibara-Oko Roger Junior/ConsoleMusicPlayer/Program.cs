@@ -71,11 +71,11 @@ namespace ConsoleMusicPlayer
 
 
 
-
+            //state zodat we kunnen 1 keer drukken op spacebar voor pauze en een andere keer voor play/resume
             int state = Convert.ToInt32(keypress.Key);
             state = 1;
 
-            //een loop zodat als je op spacebar drukt hij niet onmiddelijk de rest van de functionaliteiten dropt
+            //een loop zodat als je bv. op spacebar drukt hij niet onmiddelijk de rest van de functionaliteiten dropt
             while (keypress.Key != ConsoleKey.Escape)
             {
 
