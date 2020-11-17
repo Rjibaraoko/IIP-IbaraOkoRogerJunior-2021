@@ -7,16 +7,17 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button x:Name="PAUSE" Content="PAUSE" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="80,184,0,0"/>
-        <Button x:Name="STOP" Content="STOP" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="286,184,0,0"/>
-        <Button x:Name="PLAY" Content="PLAY" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="182,225,0,0" Click="PLAY_Click"/>
-        <Button x:Name="NEXT_TRACK" Content="NEXT TRACK" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="294,220,0,0" Height="25"/>
-        <Button x:Name="PREVIOUS_TRACK" Content="PREVIOUS TRACK" HorizontalAlignment="Left" VerticalAlignment="Top" Width="116" Margin="39,220,0,0" Height="25"/>
-        <Button x:Name="GET_PATH" Content="GET PATH" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="182,184,0,0" Height="25" Click="GET_PATH_Click"/>
+        <Button x:Name="PAUSE" Content="PAUSE" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="80,184,0,0" Click="PAUSE_Click"/>
+        <Button x:Name="STOP" Content="STOP" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="286,184,0,0" Click="STOP_Click"/>
+        <Button x:Name="PLAY" Content="PLAY" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="186,184,0,0" Click="PLAY_Click" RenderTransformOrigin="0.469,0.341"/>
+        <Button x:Name="NEXT_TRACK" Content="NEXT TRACK" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="282,220,0,0" Height="25" Click="NEXT_TRACK_Click"/>
+        <Button x:Name="PREVIOUS_TRACK" Content="PREVIOUS TRACK" HorizontalAlignment="Left" VerticalAlignment="Top" Width="116" Margin="56,220,0,0" Height="25" Click="PREVIOUS_TRACK_Click"/>
         <ListBox x:Name="Medialist" HorizontalAlignment="Left" Height="328" VerticalAlignment="Top" Width="278" Margin="489,52,0,0" SelectionChanged="Medialist_SelectionChanged" MouseDoubleClick="Medialist_MouseDoubleClick"/>
-        <TextBox x:Name="Pathtxt" HorizontalAlignment="Left" Height="40" TextWrapping="Wrap" VerticalAlignment="Top" Width="255" Margin="86,52,0,0" TextChanged="Pathtxt_TextChanged" />
-        <Slider HorizontalAlignment="Left" VerticalAlignment="Top" Margin="76,331,0,0" Width="297"/>
-        <Label x:Name="lblCurrentSong" Content="Current song playing:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="39,275,0,0" RenderTransformOrigin="0.421,-1.731" Width="388"/>
+        <TextBox x:Name="Pathtxt" HorizontalAlignment="Left" Height="40" TextWrapping="Wrap" VerticalAlignment="Top" Width="255" Margin="86,52,0,0" TextChanged="Pathtxt_Text" />
+        <Slider x:Name="VolumeSlide" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="76,331,0,0" Width="297" />
+        <Label x:Name="lblCurrentSong" Content="Current song playing:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,284,0,0" RenderTransformOrigin="0.421,-1.731" Width="426"/>
+        <Button x:Name="ADD_SONG" Content="ADD SONG" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="186,220,0,0" Height="25"/>
+        <Button x:Name="REMOVE_SONG" Content="REMOVE SONG" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="186,254,0,0" Height="25"/>
 
     </Grid>
 </Window>

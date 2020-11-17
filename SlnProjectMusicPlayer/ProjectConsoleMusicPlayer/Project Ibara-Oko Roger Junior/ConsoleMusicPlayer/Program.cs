@@ -66,22 +66,9 @@ namespace ConsoleMusicPlayer
             //een loop zodat als je op spacebar drukt hij niet onmiddelijk de rest van de functionaliteiten dropt
             while (keypress.Key != ConsoleKey.Escape)
             {
-                Console.WriteLine("MEDIAPLAYER");
-                Console.WriteLine("===========");
-                Console.WriteLine("\n");
-                Console.WriteLine("HOME BUTTON om liedjes uit de lijst de kunnen selecteren");
-                Console.WriteLine("SPACEBAR om te pauseren/play");
-                Console.WriteLine("UPARROW om geluid te veranderen");
-                Console.WriteLine("RIGHTARROW om te muten");
-                Console.WriteLine("LEFTARROW om te ontmuten");
-                Console.WriteLine("BACKSPACE om liedje te stoppen en van liedje te veranderen");
-                Console.WriteLine("PAGE UP om een liedje toe te voegen aan de lijst");
-                Console.WriteLine("PAGE DOWN om een liedje te verwijderen van de lijst");
-                Console.WriteLine("\n");
-                Console.WriteLine("ESCAPE om uit de applicatie te komen");
-                Console.WriteLine("\n");
-                Console.WriteLine("Lijst van de gegeven lietjes");
-                Console.WriteLine("\n");
+
+                PrintMenu();
+               
                 //loop zodat 1 elk liedje wordt getoont en 2 zodat naast elk liedje een cijfer van de index wordt toegevoegd
                 for (int i = 0; i < files.Count; i++)
                 {
@@ -213,11 +200,28 @@ namespace ConsoleMusicPlayer
 
             }
 
-
-
-
             //ajouter une fonction pause pour que le loop sois moins lourd pour le pc
 
+        }
+
+        private static void PrintMenu()//dit zal de menu printen
+        {
+            Console.WriteLine("MEDIAPLAYER");
+            Console.WriteLine("===========");
+            Console.WriteLine("\n");
+            Console.WriteLine("HOME BUTTON om liedjes uit de lijst de kunnen selecteren");
+            Console.WriteLine("SPACEBAR om te pauseren/play");
+            Console.WriteLine("UPARROW om geluid te veranderen");
+            Console.WriteLine("RIGHTARROW om te muten");
+            Console.WriteLine("LEFTARROW om te ontmuten");
+            Console.WriteLine("BACKSPACE om liedje te stoppen en van liedje te veranderen");
+            Console.WriteLine("PAGE UP om een liedje toe te voegen aan de lijst");
+            Console.WriteLine("PAGE DOWN om een liedje te verwijderen van de lijst");
+            Console.WriteLine("\n");
+            Console.WriteLine("ESCAPE om uit de applicatie te komen");
+            Console.WriteLine("\n");
+            Console.WriteLine("Lijst van de gegeven lietjes");
+            Console.WriteLine("\n");
         }
     }
 }

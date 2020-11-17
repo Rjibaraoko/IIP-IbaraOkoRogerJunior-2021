@@ -24,10 +24,11 @@ namespace WPFMusicPlayer
     /// </summary>
     public partial class MainWindow : Window
     {
+        WindowsMediaPlayer player = new WindowsMediaPlayer();
         public MainWindow()
         {
             InitializeComponent();
-            WindowsMediaPlayer player = new WindowsMediaPlayer();
+            //WindowsMediaPlayer player = new WindowsMediaPlayer();
             
             //De path naar de folder van de muzieken
             ////De path naar de folder van de muzieken
@@ -43,24 +44,33 @@ namespace WPFMusicPlayer
             //player.controls.stop();
             //player.controls.pause();
 
+
         }
         
         private void PLAY_Click(object sender, RoutedEventArgs e)
         {
-            WindowsMediaPlayer player = new WindowsMediaPlayer();
+
             /*bool textValue = Convert.ToBoolean(Pathtxt.Text);
             if (textValue == true)
             {
                 //Medialist.Items
             }*/
+
             player.controls.play();
+
         }
 
-        private void GET_PATH_Click(object sender, RoutedEventArgs e)
+        private void PAUSE_Click(object sender, RoutedEventArgs e)
         {
-            
-            
+            player.controls.pause();
         }
+
+        private void STOP_Click(object sender, RoutedEventArgs e)
+        {
+            player.controls.stop();
+        }
+
+
 
         private void Medialist_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
@@ -79,7 +89,7 @@ namespace WPFMusicPlayer
             
         }
 
-        private void Pathtxt_TextChanged(object sender, TextChangedEventArgs e)
+        private void Pathtxt_Text(object sender, TextChangedEventArgs e)
         {
             DirectoryInfo dInfo = new DirectoryInfo(Pathtxt.Text);
             FileInfo[] Files = dInfo.GetFiles();
@@ -97,7 +107,7 @@ namespace WPFMusicPlayer
             //System.Diagnostics.Process.Start(selectedSong);
 
             //Het make gebruiken van de music player
-            WindowsMediaPlayer player = new WindowsMediaPlayer();
+            
 
             //De path naar de folder van de muzieken
             string musicFolder = Environment.GetFolderPath(Environment.SpecialFolder.MyMusic);
@@ -111,6 +121,21 @@ namespace WPFMusicPlayer
             //Medialist.SelectedItem = true;
 
             lblCurrentSong.Content = "Current Song playing: " + Medialist.SelectedItem;
+        }
+
+        private void NEXT_TRACK_Click(object sender, RoutedEventArgs e)
+        {
+            player.controls.next();
+        }
+
+        private void PREVIOUS_TRACK_Click(object sender, RoutedEventArgs e)
+        {
+            player.controls.previous();
+        }
+
+        private void VolumeSlide_Value(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            VolumeSlide.Value = player.settings.volume;
         }
     }
 }
