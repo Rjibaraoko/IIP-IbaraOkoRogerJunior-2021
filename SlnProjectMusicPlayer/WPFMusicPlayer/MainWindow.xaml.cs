@@ -50,12 +50,6 @@ namespace WPFMusicPlayer
         private void PLAY_Click(object sender, RoutedEventArgs e)
         {
 
-            /*bool textValue = Convert.ToBoolean(Pathtxt.Text);
-            if (textValue == true)
-            {
-                //Medialist.Items
-            }*/
-
             player.controls.play();
 
         }
@@ -126,16 +120,44 @@ namespace WPFMusicPlayer
         private void NEXT_TRACK_Click(object sender, RoutedEventArgs e)
         {
             player.controls.next();
+            Medialist.SelectedIndex += 1;
+            player.controls.play();
         }
 
         private void PREVIOUS_TRACK_Click(object sender, RoutedEventArgs e)
         {
             player.controls.previous();
+            Medialist.SelectedIndex -= 1;
+            player.controls.play();
         }
 
         private void VolumeSlide_Value(object sender, RoutedPropertyChangedEventArgs<double> e)
         {
-            VolumeSlide.Value = player.settings.volume;
+            double huidigVolume = player.settings.volume;
+            huidigVolume = VolumeSlide.Value;
+            Volume_.Content = huidigVolume;
         }
+
+       /* private void ADD_SONG_Click(object sender, RoutedEventArgs e)
+        {
+            ListBox Medialist = new ListBox();
+            Medialist.Items.Add(Pathtxt.Text);
+            
+
+            string selectedSong = Convert.ToString(Medialist.SelectedItem);
+            //What zal het zoeken van de file in het systeem zorgen
+            //System.Diagnostics.Process.Start(selectedSong);
+
+            //Het make gebruiken van de music player
+
+
+            //De path naar de folder van de muzieken
+            string musicFolder = Environment.GetFolderPath(Environment.SpecialFolder.MyMusic);
+
+            //De exacte path naar het liedje met de naam                         
+
+            player.URL = System.IO.Path.Combine(musicFolder, selectedSong);
+            
+        }*/
     }
 }
