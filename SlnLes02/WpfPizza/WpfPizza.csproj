@@ -94,8 +94,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Images\" />
+    <Resource Include="Images\g_pizza-eck_hawaii_resch_frisch_600x600_1.png" />
+    <Resource Include="Images\large_c6a07aff-9ba9-4e50-bf65-7d259bff1e19.jpg" />
+    <Resource Include="Images\spicy-pizza-slice-isolated-white-background-clipping-path-50605273.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

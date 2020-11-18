@@ -9,10 +9,12 @@
     <Grid>
         <Grid Background="Beige" Margin="-10,0,10,0">
             <RadioButton x:Name="hot" Content="hot &amp; spicy" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="163,146,0,0" Checked="RadioButton_Checked"/>
-            <RadioButton Content="4 seizoenen" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="163,166,0,0" Checked="RadioButton_Checked_1"/>
-            <RadioButton Content="hawai" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="163,186,0,0" Checked="RadioButton_Checked_2"/>
-            <Label Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="359,135,0,0" Width="147" Background="White"/>
+            <RadioButton x:Name="seizoen" Content="4 seizoenen" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="163,166,0,0" Checked="RadioButton_Checked_1"/>
+            <RadioButton x:Name="hawai" Content="hawai" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="163,186,0,0" Checked="RadioButton_Checked_2"/>
+            <Label x:Name="pizzalbl" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="370,96,0,0" Width="332" Height="93"/>
             <Label Content="BESTEL JE PIZZA" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="135,49,0,0" Width="209" Height="45" FontSize="24"/>
+            <Image x:Name="PizzaImg" HorizontalAlignment="Left" Height="172" VerticalAlignment="Top" Width="339" Margin="343,194,0,0"/>
+
         </Grid>
     </Grid>
 </Window>

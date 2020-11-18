@@ -25,6 +25,22 @@ namespace WpfPizza
             InitializeComponent();
         }
 
-       
+        private void RadioButton_Checked(object sender, RoutedEventArgs e)
+        {
+            pizzalbl.Content = "Tomatensaus, mozzarella & oregano";
+            PizzaImg.Source = new BitmapImage(new Uri("Images/large_c6a07aff-9ba9-4e50-bf65-7d259bff1e19.jpg", UriKind.Relative));
+        }
+
+        private void RadioButton_Checked_2(object sender, RoutedEventArgs e)
+        {
+            pizzalbl.Content = "Tomatensaus, mozzarella, rode ui, kip, paprika, pepperoni & spaanse pepers";
+            PizzaImg.Source = new BitmapImage(new Uri("Images/g_pizza-eck_hawaii_resch_frisch_600x600_1.png", UriKind.Relative));
+        }
+
+        private void RadioButton_Checked_1(object sender, RoutedEventArgs e)
+        {
+            pizzalbl.Content = "Tomatensaus, mozzarella, pepperoni, gegrilde ham, champignons, rode ui, paprika, gehakt & olijven";
+            PizzaImg.Source = new BitmapImage(new Uri("Images/spicy-pizza-slice-isolated-white-background-clipping-path-50605273.jpg", UriKind.Relative));
+        }
     }
 }
