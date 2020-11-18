@@ -20,8 +20,9 @@ namespace ConsoleMusicPlayer
             Console.WriteLine("===========");
             Console.WriteLine("Folder listen:");
             Console.WriteLine("\n");
-
-            string input = Console.ReadLine();
+            //Methode die de knoppen zal weergeven voor het beheren van de liedjes in de lijst
+            Controls();
+            Console.WriteLine("\n");
             Console.WriteLine("HOME BUTTON om liedjes uit de lijst de kunnen selecteren");
             Console.WriteLine("SPACEBAR om te pauseren/play");
             Console.WriteLine("UPARROW om geluid te veranderen");
@@ -37,6 +38,23 @@ namespace ConsoleMusicPlayer
             Console.WriteLine("\n");
             
 
+            
+
+            //state = 0 is pause 
+            //state = 1 is play
+            //state = 2 volume weizigen terwijl pause
+            //state = 3 volume weizigen terwijl play
+            //state = 4 is 
+
+            
+
+        }
+
+        private static void Controls()
+        {
+
+            string input = Console.ReadLine();
+
             WindowsMediaPlayer player = new WindowsMediaPlayer();
 
             //De path naar de folder van de muzieken
@@ -51,37 +69,18 @@ namespace ConsoleMusicPlayer
             ConsoleKeyInfo keypress;
             keypress = Console.ReadKey();
 
-            //string path = input;
-            //FileInfo filepath = new FileInfo(path);
 
-            //state = 0 is pause 
-            //state = 1 is play
-            //state = 2 volume weizigen terwijl pause
-            //state = 3 volume weizigen terwijl play
-            //state = 4 is 
 
+            //state zodat we kunnen 1 keer drukken op spacebar voor pauze en een andere keer voor play/resume
             int state = Convert.ToInt32(keypress.Key);
             state = 1;
 
-            //een loop zodat als je op spacebar drukt hij niet onmiddelijk de rest van de functionaliteiten dropt
+            //een loop zodat als je bv. op spacebar drukt hij niet onmiddelijk de rest van de functionaliteiten dropt
             while (keypress.Key != ConsoleKey.Escape)
             {
-                Console.WriteLine("MEDIAPLAYER");
-                Console.WriteLine("===========");
-                Console.WriteLine("\n");
-                Console.WriteLine("HOME BUTTON om liedjes uit de lijst de kunnen selecteren");
-                Console.WriteLine("SPACEBAR om te pauseren/play");
-                Console.WriteLine("UPARROW om geluid te veranderen");
-                Console.WriteLine("RIGHTARROW om te muten");
-                Console.WriteLine("LEFTARROW om te ontmuten");
-                Console.WriteLine("BACKSPACE om liedje te stoppen en van liedje te veranderen");
-                Console.WriteLine("PAGE UP om een liedje toe te voegen aan de lijst");
-                Console.WriteLine("PAGE DOWN om een liedje te verwijderen van de lijst");
-                Console.WriteLine("\n");
-                Console.WriteLine("ESCAPE om uit de applicatie te komen");
-                Console.WriteLine("\n");
-                Console.WriteLine("Lijst van de gegeven lietjes");
-                Console.WriteLine("\n");
+
+                PrintMenu();//Dit zal de menu toevoegen in de loop zodat hij oneindig verloopt
+
                 //loop zodat 1 elk liedje wordt getoont en 2 zodat naast elk liedje een cijfer van de index wordt toegevoegd
                 for (int i = 0; i < files.Count; i++)
                 {
@@ -154,7 +153,7 @@ namespace ConsoleMusicPlayer
                         Console.WriteLine($"Huidig volume: {huidigVolume}");
                         Console.WriteLine("Geef een waarde voor het volume die u wilt berijken (0-100)");
                         player.settings.volume = Convert.ToInt32(Console.ReadLine());
-                        //state = 1;
+                        
 
                     }
                     //op right arrow drukken zodat het geluid gemute wordt links om het te ontmuten
@@ -189,22 +188,9 @@ namespace ConsoleMusicPlayer
 
                         files.Remove(files[liedje]);
                     }
-                    /*else if (keypress.Key == ConsoleKey.End)
-                    {
-                        Console.WriteLine("\n");
-                        int liedje = Convert.ToInt32(Console.ReadLine());
-                        liedje =+ 1;
-                        player.URL = System.IO.Path.Combine(folderPath, files[liedje]);
-                        Console.WriteLine($"Next song: {Path.GetFileName(files[liedje])}");
-                    }*/
-
-
-
+                    
                 }
-                /*if (player.settings.volume > 100 || player.settings.volume < 0)
-                {
-                Console.WriteLine("Gelieve een geldige waarde te geven voor het volume");
-                }*/
+                
 
 
                 keypress = Console.ReadKey();
@@ -213,11 +199,30 @@ namespace ConsoleMusicPlayer
 
             }
 
-
-
-
-            //ajouter une fonction pause pour que le loop sois moins lourd pour le pc
-
+            
         }
+
+        private static void PrintMenu()//dit zal de menu printen
+        {
+            Console.WriteLine("\n");
+            Console.WriteLine("MEDIAPLAYER");
+            Console.WriteLine("===========");
+            Console.WriteLine("\n");
+            Console.WriteLine("HOME BUTTON om liedjes uit de lijst de kunnen selecteren");
+            Console.WriteLine("SPACEBAR om te pauseren/play");
+            Console.WriteLine("UPARROW om geluid te veranderen");
+            Console.WriteLine("RIGHTARROW om te muten");
+            Console.WriteLine("LEFTARROW om te ontmuten");
+            Console.WriteLine("BACKSPACE om liedje te stoppen en van liedje te veranderen");
+            Console.WriteLine("PAGE UP om een liedje toe te voegen aan de lijst");
+            Console.WriteLine("PAGE DOWN om een liedje te verwijderen van de lijst");
+            Console.WriteLine("\n");
+            Console.WriteLine("ESCAPE om uit de applicatie te komen");
+            Console.WriteLine("\n");
+            Console.WriteLine("Lijst van de gegeven lietjes");
+            Console.WriteLine("\n");
+        }
+
+
     }
 }

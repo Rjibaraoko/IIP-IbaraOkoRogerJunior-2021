@@ -24,62 +24,54 @@ namespace WPFMusicPlayer
     /// </summary>
     public partial class MainWindow : Window
     {
+        WindowsMediaPlayer player = new WindowsMediaPlayer();
         public MainWindow()
         {
             InitializeComponent();
-            WindowsMediaPlayer player = new WindowsMediaPlayer();
             
-            //De path naar de folder van de muzieken
             ////De path naar de folder van de muzieken
             string folderPath = Environment.GetFolderPath(Environment.SpecialFolder.MyMusic); //verandert MyDocuments naar MyMusic
             string startfolder = System.IO.Path.Combine(folderPath, Pathtxt.Text);
-            // open stream and start reading
-            //string path = Pathtxt.Text;
-            //string[] array = Directory.GetFiles(startfolder); //Pathtxt.Text zal niet werken dus placeholder
+            
 
-            //List<String> files = array.ToList();
+            
             DirectoryInfo dInfo = new DirectoryInfo(startfolder);
             FileInfo[] Files = dInfo.GetFiles();
-            //player.controls.stop();
-            //player.controls.pause();
+            
+
 
         }
         
+        //Dit zal het muziek spelen
         private void PLAY_Click(object sender, RoutedEventArgs e)
         {
-            WindowsMediaPlayer player = new WindowsMediaPlayer();
-            /*bool textValue = Convert.ToBoolean(Pathtxt.Text);
-            if (textValue == true)
-            {
-                //Medialist.Items
-            }*/
+
             player.controls.play();
+
         }
 
-        private void GET_PATH_Click(object sender, RoutedEventArgs e)
+        //Dit zal het muziek pauzeren
+        private void PAUSE_Click(object sender, RoutedEventArgs e)
         {
-            
-            
+            player.controls.pause();
         }
 
+        //Dit zal het muziek helemaal stoppen
+        private void STOP_Click(object sender, RoutedEventArgs e)
+        {
+            player.controls.stop();
+        }
+
+
+        //Geen tijd genoeg om functionaliteit toe te voegen
         private void Medialist_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            /*string folderPath = Environment.GetFolderPath(Environment.SpecialFolder.MyMusic); //verandert MyDocuments naar MyMusic
-            string startfolder = System.IO.Path.Combine(folderPath, Pathtxt.Text);
-            // open stream and start reading
-            string path = Pathtxt.Text;
-            string[] array = Directory.GetFiles(startfolder); //Pathtxt.Text zal niet werken dus placeholder
-
-            List<String> files = array.ToList();
-            for (int i = 0; i < files.Count; i++)
-            {
-                Console.WriteLine($"{i}--" + System.IO.Path.GetFileName(files[i]));
-
-            }*/
+           
             
         }
 
-        private void Pathtxt_TextChanged(object sender, TextChangedEventArgs e)
+        //Dit zal de namen extracteren van de path en in in de listbox ordenen
+        private void Pathtxt_Text(object sender, TextChangedEventArgs e)
         {
             DirectoryInfo dInfo = new DirectoryInfo(Pathtxt.Text);
             FileInfo[] Files = dInfo.GetFiles();
@@ -90,14 +82,14 @@ namespace WPFMusicPlayer
 
         }
 
+        //Deze methode wordt gebruikt zodat als een user double klikt op een liedje het onmiddelijk wordt gespeeld
         private void Medialist_MouseDoubleClick(object sender, MouseButtonEventArgs e)
         {
             string selectedSong = Convert.ToString(Medialist.SelectedItem);
-            //What zal het zoeken van de file in het systeem zorgen
-            //System.Diagnostics.Process.Start(selectedSong);
+            
 
             //Het make gebruiken van de music player
-            WindowsMediaPlayer player = new WindowsMediaPlayer();
+            
 
             //De path naar de folder van de muzieken
             string musicFolder = Environment.GetFolderPath(Environment.SpecialFolder.MyMusic);
@@ -112,5 +104,49 @@ namespace WPFMusicPlayer
 
             lblCurrentSong.Content = "Current Song playing: " + Medialist.SelectedItem;
         }
+
+        //Dit is normaal gezien om het volgende liedje te spelen in de lijst maar geen tijd genoeg om dit te inmplementeren
+        private void NEXT_TRACK_Click(object sender, RoutedEventArgs e)
+        {
+            player.controls.next();
+            Medialist.SelectedIndex += 1;
+            player.controls.play();
+        }
+
+        //Dit is normaal gezien om het vorige liedje te spelen in de lijst maar geen tijd genoeg om dit te inmplementeren
+        private void PREVIOUS_TRACK_Click(object sender, RoutedEventArgs e)
+        {
+            player.controls.previous();
+            Medialist.SelectedIndex -= 1;
+            player.controls.play();
+        }
+
+        //Om volume te veranderen maar geen tijd om bugs te verbeteren
+        private void VolumeSlide_Value(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            double huidigVolume = player.settings.volume;
+            huidigVolume = VolumeSlide.Value;
+            Volume_.Content = huidigVolume;
+        }
+
+        //om het geluid van het liedje te muten
+        private void MUTE_Click(object sender, RoutedEventArgs e)
+        {
+            player.settings.mute = true;
+        }
+
+        //om het geluid van het liedje terug aan te zetten
+        private void UNMUTE_Click(object sender, RoutedEventArgs e)
+        {
+            player.settings.mute = false;
+        }
+
+        //een andere functionaliteit waarbij we een nieuw liedje zouden kunnen toevoegen maar geeen tijd om dit te implementeren
+
+        /* private void ADD_SONG_Click(object sender, RoutedEventArgs e)
+         {
+            
+
+         }*/
     }
 }
