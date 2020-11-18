@@ -5,3 +5,10 @@ F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 2\ConsoleHms\obj\Debu
 F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 2\ConsoleHms\obj\Debug\ConsoleHms.exe
 F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 2\ConsoleHms\obj\Debug\ConsoleHms.pdb
 F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 2\ConsoleHms\obj\Debug\ConsoleHms.csprojAssemblyReference.cache
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\SlnLes03\ConsoleHms\bin\Debug\ConsoleHms.exe.config
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\SlnLes03\ConsoleHms\bin\Debug\ConsoleHms.exe
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\SlnLes03\ConsoleHms\bin\Debug\ConsoleHms.pdb
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\SlnLes03\ConsoleHms\obj\Debug\ConsoleHms.csprojAssemblyReference.cache
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\SlnLes03\ConsoleHms\obj\Debug\ConsoleHms.csproj.CoreCompileInputs.cache
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\SlnLes03\ConsoleHms\obj\Debug\ConsoleHms.exe
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\SlnLes03\ConsoleHms\obj\Debug\ConsoleHms.pdb
