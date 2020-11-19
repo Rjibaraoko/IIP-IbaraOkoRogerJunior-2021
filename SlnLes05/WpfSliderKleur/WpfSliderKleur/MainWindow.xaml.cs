@@ -46,7 +46,7 @@ namespace WpfSliderKleur
                 LblCijfer.Foreground = new SolidColorBrush(Colors.PaleVioletRed);
             } else if (sldvalue > 50 && sldvalue < 75)
             {
-                LblCijfer.Foreground = new SolidColorBrush(Colors.Yellow);
+                LblCijfer.Foreground = new SolidColorBrush(Colors.GreenYellow);
             } else if (sldvalue > 75 && sldvalue < 90 )
             {
                 LblCijfer.Foreground = new SolidColorBrush(Colors.Green);

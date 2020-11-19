@@ -13,7 +13,7 @@ namespace ConsoleBestelling
 
             string pizza = "";
             string grootte = "";
-            string extra ;
+            string extra = "";
             double prijs = 0;
             bool thuisbezorgen = true;
 

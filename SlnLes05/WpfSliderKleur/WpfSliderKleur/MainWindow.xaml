@@ -10,7 +10,7 @@
         <Slider x:Name="sldr1" IsSnapToTickEnabled="True" HorizontalAlignment="Left" Margin="73,62,0,0" VerticalAlignment="Top" Width="637" RenderTransformOrigin="0,0" Height="25" ValueChanged="Slider_ValueChanged" Maximum="100" SmallChange="1" TickPlacement="BottomRight" LargeChange="0"/>
         <Label x:Name="LblWaarde" Content="Geselecteerde waarde" HorizontalAlignment="Left" Margin="73,221,0,0" VerticalAlignment="Top" Width="238" FontSize="18"/>
         <Label Content="Label" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-        <Label x:Name="LblCijfer" Content="" HorizontalAlignment="Left" Margin="592,164,0,0" VerticalAlignment="Top" Height="104" Width="118" FontSize="32" FontWeight="Bold" Background="White" Foreground="#FFFFB5B5"   />
+        <Label x:Name="LblCijfer" Content="" HorizontalAlignment="Left" Margin="285,216,0,0" VerticalAlignment="Top" Height="63" Width="75" FontSize="32" FontWeight="Bold" Background="White" Foreground="#FFFFB5B5"   />
 
     </Grid>
 </Window>

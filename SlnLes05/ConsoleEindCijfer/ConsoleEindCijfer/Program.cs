@@ -31,18 +31,19 @@ namespace ConsoleEindCijfer
                 Console.WriteLine(" onvoldoende ");
 
             }
-            else if (eindcijfer > 60 )
+            else if (eindcijfer >= 60 )
             {
                 Console.WriteLine(" Grote onderschijding  ");
 
             }
-            else if (eindcijfer > 80) {
-                Console.WriteLine("grootte onderschijding");
+            else if (eindcijfer >= 80) {
+                Console.WriteLine("grootste onderschijding");
             }
             
 
 
             Console.WriteLine($"je eindcijfer is :{eindcijfer}%");
+            Console.Read();
 
 
 

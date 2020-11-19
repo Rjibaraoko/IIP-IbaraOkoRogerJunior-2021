@@ -12,3 +12,18 @@ F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 1\WpfVolumeSlider\obj
 F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 1\WpfVolumeSlider\obj\Debug\WpfVolumeSlider.csproj.CoreCompileInputs.cache
 F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 1\WpfVolumeSlider\obj\Debug\WpfVolumeSlider.exe
 F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 1\WpfVolumeSlider\obj\Debug\WpfVolumeSlider.pdb
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\SlnLes02\WpfVolumeSlider\bin\Debug\WpfVolumeSlider.exe.config
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\SlnLes02\WpfVolumeSlider\bin\Debug\WpfVolumeSlider.exe
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\SlnLes02\WpfVolumeSlider\bin\Debug\WpfVolumeSlider.pdb
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\SlnLes02\WpfVolumeSlider\obj\Debug\WpfVolumeSlider.csprojAssemblyReference.cache
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\SlnLes02\WpfVolumeSlider\obj\Debug\MainWindow.g.cs
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\SlnLes02\WpfVolumeSlider\obj\Debug\App.g.cs
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\SlnLes02\WpfVolumeSlider\obj\Debug\WpfVolumeSlider_MarkupCompile.cache
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\SlnLes02\WpfVolumeSlider\obj\Debug\WpfVolumeSlider_MarkupCompile.lref
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\SlnLes02\WpfVolumeSlider\obj\Debug\MainWindow.baml
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\SlnLes02\WpfVolumeSlider\obj\Debug\WpfVolumeSlider.g.resources
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\SlnLes02\WpfVolumeSlider\obj\Debug\WpfVolumeSlider.Properties.Resources.resources
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\SlnLes02\WpfVolumeSlider\obj\Debug\WpfVolumeSlider.csproj.GenerateResource.cache
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\SlnLes02\WpfVolumeSlider\obj\Debug\WpfVolumeSlider.csproj.CoreCompileInputs.cache
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\SlnLes02\WpfVolumeSlider\obj\Debug\WpfVolumeSlider.exe
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\SlnLes02\WpfVolumeSlider\obj\Debug\WpfVolumeSlider.pdb

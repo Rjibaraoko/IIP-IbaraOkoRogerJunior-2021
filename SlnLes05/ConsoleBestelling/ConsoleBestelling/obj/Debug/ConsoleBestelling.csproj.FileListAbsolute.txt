@@ -4,3 +4,10 @@ C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\ConsoleBestelling\Consol
 C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\ConsoleBestelling\ConsoleBestelling\obj\Debug\ConsoleBestelling.csprojAssemblyReference.cache
 C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\ConsoleBestelling\ConsoleBestelling\obj\Debug\ConsoleBestelling.exe
 C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\ConsoleBestelling\ConsoleBestelling\obj\Debug\ConsoleBestelling.pdb
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\SlnLes05\ConsoleBestelling\ConsoleBestelling\bin\Debug\ConsoleBestelling.exe.config
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\SlnLes05\ConsoleBestelling\ConsoleBestelling\bin\Debug\ConsoleBestelling.exe
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\SlnLes05\ConsoleBestelling\ConsoleBestelling\bin\Debug\ConsoleBestelling.pdb
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\SlnLes05\ConsoleBestelling\ConsoleBestelling\obj\Debug\ConsoleBestelling.csprojAssemblyReference.cache
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\SlnLes05\ConsoleBestelling\ConsoleBestelling\obj\Debug\ConsoleBestelling.csproj.CoreCompileInputs.cache
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\SlnLes05\ConsoleBestelling\ConsoleBestelling\obj\Debug\ConsoleBestelling.exe
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\SlnLes05\ConsoleBestelling\ConsoleBestelling\obj\Debug\ConsoleBestelling.pdb

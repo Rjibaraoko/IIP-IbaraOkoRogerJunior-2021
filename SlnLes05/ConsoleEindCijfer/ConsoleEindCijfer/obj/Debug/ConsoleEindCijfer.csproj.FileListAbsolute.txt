@@ -4,3 +4,10 @@ C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\ConsoleEindCijfer\Consol
 C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\ConsoleEindCijfer\ConsoleEindCijfer\obj\Debug\ConsoleEindCijfer.csprojAssemblyReference.cache
 C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\ConsoleEindCijfer\ConsoleEindCijfer\obj\Debug\ConsoleEindCijfer.exe
 C:\Users\joao-\OneDrive\Documents\GitHub\SlnIntroductie\ConsoleEindCijfer\ConsoleEindCijfer\obj\Debug\ConsoleEindCijfer.pdb
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\SlnLes05\ConsoleEindCijfer\ConsoleEindCijfer\bin\Debug\ConsoleEindCijfer.exe.config
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\SlnLes05\ConsoleEindCijfer\ConsoleEindCijfer\bin\Debug\ConsoleEindCijfer.exe
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\SlnLes05\ConsoleEindCijfer\ConsoleEindCijfer\bin\Debug\ConsoleEindCijfer.pdb
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\SlnLes05\ConsoleEindCijfer\ConsoleEindCijfer\obj\Debug\ConsoleEindCijfer.csprojAssemblyReference.cache
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\SlnLes05\ConsoleEindCijfer\ConsoleEindCijfer\obj\Debug\ConsoleEindCijfer.csproj.CoreCompileInputs.cache
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\SlnLes05\ConsoleEindCijfer\ConsoleEindCijfer\obj\Debug\ConsoleEindCijfer.exe
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\SlnLes05\ConsoleEindCijfer\ConsoleEindCijfer\obj\Debug\ConsoleEindCijfer.pdb

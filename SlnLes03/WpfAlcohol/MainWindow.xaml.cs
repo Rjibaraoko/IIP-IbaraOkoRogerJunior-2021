@@ -25,9 +25,30 @@ namespace WpfAlcohol
             InitializeComponent();
         }
 
-        private void Slider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        private void SliderG_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
         {
-            glazenlbl.Content = sliderG.Value;
+            glazenlbl.Content = "glazen " + sliderG.Value;
+            AlcoholPr.Value = sliderG.Value;
+        }
+
+        private void sliderG2_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            glazenlbl2.Content = "glazen " + sliderG2.Value;
+        }
+
+        private void sliderG3_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            glazenlbl3.Content = "glazen " + sliderG3.Value;
+        }
+
+        private void ProgressBar_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            AlcoholPr.Minimum = 0;
+            AlcoholPr.Maximum = 5;
+            AlcoholPr.Value = 1;
+            
+
+            
         }
     }
 }

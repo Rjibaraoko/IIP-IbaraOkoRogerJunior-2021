@@ -9,7 +9,7 @@
     <Grid RenderTransformOrigin="0.516,0.58">
         <Grid Background="LightSteelBlue"></Grid>
         <Label x:Name="Volumelbl" Content=" &#x9;VOLUME: " HorizontalAlignment="Left" VerticalAlignment="Top" Margin="321,196,0,0" Width="155"/>
-        <Slider x:Name="SliderV" HorizontalAlignment="Left" VerticalAlignment="Top" Height="26" Width="470" Margin="170,165,0,0" Minimum="0" Maximum="100" IsSnapToTickEnabled="True" TickFrequency="5" ValueChanged="Slider_ValueChanged" />
+        <Slider x:Name="SliderV" HorizontalAlignment="Left" VerticalAlignment="Top" Height="26" Width="470" Margin="170,165,0,0" Minimum="0" Maximum="100" IsSnapToTickEnabled="True" TickFrequency="5" />
 
     </Grid>
 </Window>
