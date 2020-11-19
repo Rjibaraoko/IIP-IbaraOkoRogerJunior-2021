@@ -24,5 +24,10 @@ namespace WpfAlcohol
         {
             InitializeComponent();
         }
+
+        private void Slider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            glazenlbl.Content = sliderG.Value;
+        }
     }
 }

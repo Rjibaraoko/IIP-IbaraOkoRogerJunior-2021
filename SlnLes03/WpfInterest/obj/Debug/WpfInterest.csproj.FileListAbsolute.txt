@@ -13,3 +13,18 @@ F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 2\WpfInterest\obj\Deb
 F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 2\WpfInterest\obj\Debug\WpfInterest.csproj.CoreCompileInputs.cache
 F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 2\WpfInterest\obj\Debug\WpfInterest.exe
 F:\IIP Oefeningen.Project\IIP-IbaraOkoRogerJunior-2021\Les 2\WpfInterest\obj\Debug\WpfInterest.pdb
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\SlnLes03\WpfInterest\bin\Debug\WpfInterest.exe.config
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\SlnLes03\WpfInterest\bin\Debug\WpfInterest.exe
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\SlnLes03\WpfInterest\bin\Debug\WpfInterest.pdb
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\SlnLes03\WpfInterest\obj\Debug\WpfInterest.csprojAssemblyReference.cache
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\SlnLes03\WpfInterest\obj\Debug\MainWindow.g.cs
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\SlnLes03\WpfInterest\obj\Debug\App.g.cs
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\SlnLes03\WpfInterest\obj\Debug\WpfInterest_MarkupCompile.cache
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\SlnLes03\WpfInterest\obj\Debug\WpfInterest_MarkupCompile.lref
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\SlnLes03\WpfInterest\obj\Debug\MainWindow.baml
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\SlnLes03\WpfInterest\obj\Debug\WpfInterest.g.resources
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\SlnLes03\WpfInterest\obj\Debug\WpfInterest.Properties.Resources.resources
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\SlnLes03\WpfInterest\obj\Debug\WpfInterest.csproj.GenerateResource.cache
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\SlnLes03\WpfInterest\obj\Debug\WpfInterest.csproj.CoreCompileInputs.cache
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\SlnLes03\WpfInterest\obj\Debug\WpfInterest.exe
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\SlnLes03\WpfInterest\obj\Debug\WpfInterest.pdb

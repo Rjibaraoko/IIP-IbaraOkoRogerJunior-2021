@@ -35,7 +35,7 @@ namespace WpfInterest
             var sliderV = Convert.ToDouble(Math.Round(jaarslider.Value, 0));
             var euro = Convert.ToDouble(eurotxt.Text);
             var interest = Convert.ToDouble(percenttxt.Text) / 100;
-            var result = euro * (1 + interest ) + Math.Pow(interest, sliderV);
+            var result = euro * Math.Pow((1 + interest), euro);
 
             resultlbl.Content = "De waarde na " + sliderV + " jaar bedraagt $" + result;
         }
