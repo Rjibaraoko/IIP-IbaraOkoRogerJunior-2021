@@ -1,0 +1,7 @@
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\SlnLes08\ConsoleFibonacci\bin\Debug\ConsoleFibonacci.exe.config
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\SlnLes08\ConsoleFibonacci\bin\Debug\ConsoleFibonacci.exe
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\SlnLes08\ConsoleFibonacci\bin\Debug\ConsoleFibonacci.pdb
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\SlnLes08\ConsoleFibonacci\obj\Debug\ConsoleFibonacci.csprojAssemblyReference.cache
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\SlnLes08\ConsoleFibonacci\obj\Debug\ConsoleFibonacci.csproj.CoreCompileInputs.cache
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\SlnLes08\ConsoleFibonacci\obj\Debug\ConsoleFibonacci.exe
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\SlnLes08\ConsoleFibonacci\obj\Debug\ConsoleFibonacci.pdb
