@@ -19,10 +19,11 @@ namespace ConsoleFaculteit
 
         private static int Faculteit(int n)
         {
-            for (int i = n-1; i <= n; i--)
+            int i, facu = 1;
+            for (i = 1; i <= n; i++)
             {
-                int resultaat = i * i;
-                Console.WriteLine($"de faculteit is {resultaat}");
+                facu = facu * i;
+                Console.WriteLine($"de faculteit is {facu}");
              
             }
             return n;
