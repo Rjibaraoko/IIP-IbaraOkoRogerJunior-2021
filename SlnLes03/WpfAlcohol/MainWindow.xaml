@@ -14,7 +14,7 @@
         <Image Source="Images/Beer-icon.png" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100" Margin="24,19,0,0"/>
         <Image Source="Images/wine icon.png" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100" Margin="24,145,0,0"/>
         <Image Source="Images/Whiskey-512.png" HorizontalAlignment="Left" Height="149" VerticalAlignment="Top" Width="156" Margin="10,250,0,0"/>
-        <ProgressBar x:Name="AlcoholPr" HorizontalAlignment="Left" Height="26" VerticalAlignment="Top" Width="423" Margin="290,365,0,0" Background="WhiteSmoke" ValueChanged="ProgressBar_ValueChanged"/>
+        <ProgressBar x:Name="AlcoholPr" HorizontalAlignment="Left" Height="26" VerticalAlignment="Top" Width="423" Margin="290,365,0,0" Background="White" ValueChanged="ProgressBar_ValueChanged"/>
         <Slider x:Name="sliderG" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="244,54,0,0" Width="386" Minimum="0" Maximum="5" TickFrequency="1" IsSnapToTickEnabled="True" ValueChanged="SliderG_ValueChanged"/>
         <Slider x:Name="sliderG3" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="244,283,0,0" Width="386" Minimum="0" Maximum="5" TickFrequency="1" IsSnapToTickEnabled="True" ValueChanged="sliderG3_ValueChanged"/>
         <Slider x:Name="sliderG2" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="244,177,0,0" Width="386" Minimum="0" Maximum="5" TickFrequency="1" IsSnapToTickEnabled="True" ValueChanged="sliderG2_ValueChanged"/>
