@@ -9,6 +9,7 @@
     <Grid>
         <Canvas x:Name="canvas1" HorizontalAlignment="Left" Height="255" Margin="10,94,0,-78.6" VerticalAlignment="Top" Width="711"/>
         <Button x:Name="btnTekenen" Content="TEKENEN" HorizontalAlignment="Left" Margin="541,46,0,0" VerticalAlignment="Top"
-                Width="138" Height="30" FontWeight="Bold" Click="btnTekenen_Click"/>
+                Width="138" Height="30" FontWeight="Bold" Click="btnTekenen_Click"/>
+
     </Grid>
 </Window>

@@ -38,6 +38,25 @@ namespace WpfEllipsen
 
         private void btnTekenen_Click(object sender, RoutedEventArgs e)
         {
+            Random rnd = new Random();
+            Byte[] b = new Byte[255];
+            rnd.NextBytes(b);
+            double rand = rnd.NextDouble();
+            int n = 255;
+
+            for (int i = 0; i < n; i++)
+            {
+            Ellipse newEllipse = new Ellipse();
+            newEllipse.Width = rand;
+            newEllipse.Height = rand;
+            newEllipse.Fill = new SolidColorBrush(Color.FromRgb(b[i], b[i], b[i]));
+            double xPos = rand;
+            double yPos = rand;
+            newEllipse.SetValue(Canvas.LeftProperty, xPos);
+            newEllipse.SetValue(Canvas.TopProperty, yPos);
+            canvas1.Children.Add(newEllipse);
+            }
+
             
         }
     }
