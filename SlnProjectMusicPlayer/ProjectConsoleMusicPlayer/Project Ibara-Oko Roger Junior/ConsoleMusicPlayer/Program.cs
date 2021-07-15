@@ -95,6 +95,7 @@ namespace ConsoleMusicPlayer
                 {
                     //na het stoppen van het liedje zal de user een nieuw liedje kunnen inputten
                     player.controls.stop();
+                    Console.WriteLine("\n");
                     Console.WriteLine("STOPPED");
                     Console.WriteLine("===========");
                     Console.WriteLine("Een ander bestand afspelen:");

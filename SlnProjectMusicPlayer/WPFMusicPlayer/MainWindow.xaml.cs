@@ -36,7 +36,7 @@ namespace WPFMusicPlayer
 
             
             DirectoryInfo dInfo = new DirectoryInfo(startfolder);
-            FileInfo[] Files = dInfo.GetFiles();
+            //FileInfo[] Files = dInfo.GetFiles();
             
 
 
@@ -66,8 +66,8 @@ namespace WPFMusicPlayer
         //Geen tijd genoeg om functionaliteit toe te voegen
         private void Medialist_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-           
-            
+
+
         }
 
         //Dit zal de namen extracteren van de path en in in de listbox ordenen
@@ -108,18 +108,73 @@ namespace WPFMusicPlayer
         //Dit is normaal gezien om het volgende liedje te spelen in de lijst maar geen tijd genoeg om dit te inmplementeren
         private void NEXT_TRACK_Click(object sender, RoutedEventArgs e)
         {
-            player.controls.next();
+            string selectedSong = Convert.ToString(Medialist.SelectedItem);
+
+
+            //Het make gebruiken van de music player
+
+
+            //De path naar de folder van de muzieken
+            string musicFolder = Environment.GetFolderPath(Environment.SpecialFolder.MyMusic);
+
+            //De exacte path naar het liedje met de naam                         
+
+            player.URL = System.IO.Path.Combine(musicFolder, selectedSong);
+
+            Medialist.SelectedItem = true;
+
+            lblCurrentSong.Content = "Current Song playing: " + selectedSong;
+            //player.controls.next();
             Medialist.SelectedIndex += 1;
-            player.controls.play();
+            //player.controls.play();
         }
 
         //Dit is normaal gezien om het vorige liedje te spelen in de lijst maar geen tijd genoeg om dit te inmplementeren
         private void PREVIOUS_TRACK_Click(object sender, RoutedEventArgs e)
         {
-            player.controls.previous();
+            string selectedSong = Convert.ToString(Medialist.SelectedItem);
+
+
+            //Het make gebruiken van de music player
+
+
+            //De path naar de folder van de muzieken
+            string musicFolder = Environment.GetFolderPath(Environment.SpecialFolder.MyMusic);
+
+            //De exacte path naar het liedje met de naam                         
+
+            player.URL = System.IO.Path.Combine(musicFolder, selectedSong);
+
+            //Medialist.SelectedItem = true;
+
+            lblCurrentSong.Content = "Current Song playing: " + selectedSong;
+            //player.controls.previous();
             Medialist.SelectedIndex -= 1;
-            player.controls.play();
+            //player.controls.play();
+
+            if (Medialist.SelectedIndex == 0)
+            {
+
+            }
+
         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         //Om volume te veranderen maar geen tijd om bugs te verbeteren
         private void VolumeSlide_Value(object sender, RoutedPropertyChangedEventArgs<double> e)

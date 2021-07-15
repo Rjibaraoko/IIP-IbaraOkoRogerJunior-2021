@@ -19,7 +19,7 @@
         <Button x:Name="PLAY" Content="PLAY" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="186,184,0,0" Click="PLAY_Click" RenderTransformOrigin="0.469,0.341"/>
         <Button x:Name="NEXT_TRACK" Content="NEXT TRACK" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="282,220,0,0" Height="25" Click="NEXT_TRACK_Click"/>
         <Button x:Name="PREVIOUS_TRACK" Content="PREVIOUS TRACK" HorizontalAlignment="Left" VerticalAlignment="Top" Width="99" Margin="64,220,0,0" Height="25" Click="PREVIOUS_TRACK_Click"/>
-        <ListBox x:Name="Medialist" HorizontalAlignment="Left" Height="328" VerticalAlignment="Top" Width="278" Margin="489,52,0,0" SelectionChanged="Medialist_SelectionChanged" MouseDoubleClick="Medialist_MouseDoubleClick"/>
+        <ListBox x:Name="Medialist" HorizontalAlignment="Left" Height="365" VerticalAlignment="Top" Width="364" Margin="418,44,0,0" SelectionChanged="Medialist_SelectionChanged" MouseDoubleClick="Medialist_MouseDoubleClick"/>
         <TextBox x:Name="Pathtxt" HorizontalAlignment="Left" Height="40" TextWrapping="Wrap" VerticalAlignment="Top" Width="255" Margin="94,87,0,0" TextChanged="Pathtxt_Text" />
         <Slider x:Name="VolumeSlide" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="56,345,0,0" Width="297" />
         <Label x:Name="lblCurrentSong" Content="Current song playing:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="45,301,0,0" RenderTransformOrigin="0.421,-1.731" Width="426"/>
