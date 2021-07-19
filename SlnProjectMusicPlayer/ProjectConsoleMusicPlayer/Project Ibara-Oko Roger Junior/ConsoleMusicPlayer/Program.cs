@@ -205,6 +205,8 @@ namespace ConsoleMusicPlayer
 
         private static void PrintMenu()//dit zal de menu printen
         {
+            Console.BackgroundColor = ConsoleColor.White;
+            Console.ForegroundColor = ConsoleColor.Black;
             Console.WriteLine("\n");
             Console.WriteLine("MEDIAPLAYER");
             Console.WriteLine("===========");
