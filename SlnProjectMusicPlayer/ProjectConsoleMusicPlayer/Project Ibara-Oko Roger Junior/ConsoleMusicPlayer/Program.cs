@@ -14,7 +14,8 @@ namespace ConsoleMusicPlayer
         static void Main(string[] args)
         {
 
-
+            Console.BackgroundColor = ConsoleColor.White;
+            Console.ForegroundColor = ConsoleColor.Black;
             //de tekst dat zal opkomen bij het starten van het programma
             Console.WriteLine("MEDIAPLAYER");
             Console.WriteLine("===========");

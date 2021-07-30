@@ -1,0 +1,7 @@
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\Sln808_Experiments\ConsoleExperiment01\bin\Debug\ConsoleExperiment01.exe.config
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\Sln808_Experiments\ConsoleExperiment01\bin\Debug\ConsoleExperiment01.exe
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\Sln808_Experiments\ConsoleExperiment01\bin\Debug\ConsoleExperiment01.pdb
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\Sln808_Experiments\ConsoleExperiment01\obj\Debug\ConsoleExperiment01.csprojAssemblyReference.cache
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\Sln808_Experiments\ConsoleExperiment01\obj\Debug\ConsoleExperiment01.csproj.CoreCompileInputs.cache
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\Sln808_Experiments\ConsoleExperiment01\obj\Debug\ConsoleExperiment01.exe
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\Sln808_Experiments\ConsoleExperiment01\obj\Debug\ConsoleExperiment01.pdb

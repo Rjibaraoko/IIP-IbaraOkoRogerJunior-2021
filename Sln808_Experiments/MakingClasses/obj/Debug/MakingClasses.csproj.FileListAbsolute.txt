@@ -1,0 +1,7 @@
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\Sln808_Experiments\MakingClasses\bin\Debug\MakingClasses.exe.config
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\Sln808_Experiments\MakingClasses\bin\Debug\MakingClasses.exe
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\Sln808_Experiments\MakingClasses\bin\Debug\MakingClasses.pdb
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\Sln808_Experiments\MakingClasses\obj\Debug\MakingClasses.csprojAssemblyReference.cache
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\Sln808_Experiments\MakingClasses\obj\Debug\MakingClasses.csproj.CoreCompileInputs.cache
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\Sln808_Experiments\MakingClasses\obj\Debug\MakingClasses.exe
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\Sln808_Experiments\MakingClasses\obj\Debug\MakingClasses.pdb

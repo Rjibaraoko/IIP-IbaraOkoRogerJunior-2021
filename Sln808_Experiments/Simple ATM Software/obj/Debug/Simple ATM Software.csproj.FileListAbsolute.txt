@@ -1,0 +1,7 @@
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\Sln808_Experiments\Simple ATM Software\bin\Debug\Simple ATM Software.exe.config
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\Sln808_Experiments\Simple ATM Software\bin\Debug\Simple ATM Software.exe
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\Sln808_Experiments\Simple ATM Software\bin\Debug\Simple ATM Software.pdb
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\Sln808_Experiments\Simple ATM Software\obj\Debug\Simple ATM Software.csprojAssemblyReference.cache
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\Sln808_Experiments\Simple ATM Software\obj\Debug\Simple ATM Software.csproj.CoreCompileInputs.cache
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\Sln808_Experiments\Simple ATM Software\obj\Debug\Simple ATM Software.exe
+C:\Users\Rj\Desktop\IIP-IbaraOkoRogerJunior-2021\Sln808_Experiments\Simple ATM Software\obj\Debug\Simple ATM Software.pdb
